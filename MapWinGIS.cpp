@@ -36,7 +36,7 @@ BOOL CMapWinGISApp::InitInstance()
 	std::locale::global(std::locale("C"));
 	
 	// initialize all static variables, to keep our memory leaking report clean from them
-	#ifdef _DEBUG
+	#ifdef MEMLEAK
 		gMemLeakDetect.stopped = true;
 		GDALAllRegister();
 		gMemLeakDetect.stopped = false;
@@ -137,7 +137,7 @@ STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv)
 {
 	AFX_MANAGE_STATE(AfxGetStaticModuleState());
 	
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	bool state = gMemLeakDetect.stopped;
 	gMemLeakDetect.stopped = true;
 #endif
@@ -148,7 +148,7 @@ STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv)
 	else
 		hres = _Module.GetClassObject(rclsid, riid, ppv);
 	
-#ifdef _DEBUG	
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = state;
 #endif
 

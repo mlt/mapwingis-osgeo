@@ -214,7 +214,7 @@ void CMapView::Startup()
 	_hotTracking.Shapefile = NULL;
 	_rotate = NULL;
 
-	#ifdef _DEBUG
+	#ifdef MEMLEAK
 	gMemLeakDetect.stopped = true;
 	#endif
 
@@ -235,7 +235,7 @@ void CMapView::Startup()
 	if (_panningInertia != csFalse)
 		_panningLock.Unlock();
 
-	#ifdef _DEBUG
+	#ifdef _MEMLEAK
 	gMemLeakDetect.stopped = false;
 	#endif
 }

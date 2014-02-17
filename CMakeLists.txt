@@ -21,6 +21,8 @@ find_package(SHAPELIB)# REQUIRED
 
 include_directories(${GDAL_INCLUDE_DIR} ${GEOS_INCLUDE_DIR} ${SPATIALINDEX_INCLUDE_DIR})
 
+set(MEMLEAK OFF CACHE BOOL "Use memory leak detection")
+
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /Zc:forScope-")
 
 include(runtime)
@@ -297,7 +299,6 @@ Tin/triangle_table.cpp
 Tin/vertex_table.cpp
 Utilities/ColoringGraph.cpp
 Utilities/cppVector.cpp
-Utilities/Debugging/MemLeakDetect.cpp
 Utilities/Debugging/ReferenceCounter.cpp
 Utilities/GdalHelper.cpp
 Utilities/GeographLibHelper.cpp
@@ -317,6 +318,12 @@ MapWinGIS.tlb
 MapWinGIS.rc
 MapWinGIS_i.c
 )
+
+if(MEMLEAK)
+  add_definition(-DMEMLEAK)
+  set(MAPWINGIS_SRCS ${MAPWINGIS_SRCS} Utilities/Debugging/MemLeakDetect.cpp)
+endif()
+
 
 set_source_files_properties(StdAfx.cpp PROPERTIES COMPILE_FLAGS "/Ycstdafx.h" OBJECT_OUTPUTS "stdafx.pch")
 set_source_files_properties(${MAPWINGIS_SRCS} PROPERTIES OBJECT_DEPENDS "stdafx.pch")

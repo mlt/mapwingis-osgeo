@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "GlobalVars.h"
 
-#ifdef _DEBUG
+#ifdef _MEMLEAK
 CMemLeakDetect gMemLeakDetect;		// comment this line to turn off the memory leaking detection tools	
 #endif
 

@@ -46,7 +46,7 @@ const double MOUSE_CLICK_TOLERANCE = 20;  // pixels
 const double POINT_INSERT_TOLERANCE = 10;  // pixels
 
 // comment these lines to turn off the memory leaking detection tools
-#ifdef _DEBUG
+#ifdef _MEMLEAK
 	#include "../debugging/MemLeakDetect.h"
 	#pragma warning(disable:4100)
 	extern CMemLeakDetect gMemLeakDetect;
