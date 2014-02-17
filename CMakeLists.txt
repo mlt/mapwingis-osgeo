@@ -321,8 +321,11 @@ target_link_libraries(MapWinGIS
                       ${TIFF_LIBRARY} ${GEOTIFF_LIBRARY}
                       ${SHAPELIB_LIBRARY}
                       wininet.lib GdiPlus.lib)
-SET_TARGET_PROPERTIES(MapWinGIS PROPERTIES SUFFIX ".ocx" COMPILE_FLAGS "/Yustdafx.h")
-# LINK_FLAGS "/MANIFEST /MANIFESTFILE:${CMAKE_CURRENT_BINARY_DIR}/registration-free.manifest"
+SET_TARGET_PROPERTIES(MapWinGIS PROPERTIES SUFFIX ".ocx"
+  DEBUG_POSTFIX _d
+  COMPILE_FLAGS "/Yustdafx.h"
+  LIBRARY_OUTPUT_DIRECTORY_DEBUG "${OSGEO_ROOT}/bin"
+)
 
 add_custom_command(
   TARGET MapWinGIS POST_BUILD
