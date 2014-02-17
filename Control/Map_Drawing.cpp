@@ -2339,7 +2339,12 @@ struct DrawingParams: CObject
 		bounds = b;
 		map = m;
 	};
+private:
+	DECLARE_DYNAMIC(DrawingParams)
 };
+
+
+IMPLEMENT_DYNAMIC(DrawingParams, CObject)
 
 // ***************************************************************
 //		StartDrawLayers()
