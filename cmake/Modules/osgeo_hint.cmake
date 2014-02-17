@@ -1,0 +1,7 @@
+if( CMAKE_SIZEOF_VOID_P EQUAL 8 )
+  set(OSGEO_ROOT C:/OSGeo4W64)
+  message( STATUS "Presume OSGeo4W 64 bit is installed to C:/OSGeo4W64/" )
+else()
+  set(OSGEO_ROOT C:/OSGeo4W)
+  message( STATUS "Presume OSGeo4W 32 bit is installed to C:/OSGeo4W/" )
+endif()
