@@ -5,7 +5,6 @@
 #include <fstream>
 
 #include "MapWinGis.h"
-#include "MapWinGIS_i.c"
 #include "ShapefileColorScheme.h"
 #include "ShapefileColorBreak.h"
 #include "cpl_conv.h" 
