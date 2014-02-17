@@ -121,7 +121,7 @@ BaseProvider* CTileProviders::getProviderCore(tkTileProvider provider )
 			return m_providers[i];
 	}
 
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = true;
 #endif
 
@@ -209,7 +209,7 @@ BaseProvider* CTileProviders::getProviderCore(tkTileProvider provider )
 	{
 		Debug::WriteLine("Provider wasn't found: %d", (int)provider);
 	}
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = false;
 #endif
 

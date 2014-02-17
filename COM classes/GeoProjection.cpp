@@ -835,7 +835,7 @@ STDMETHODIMP CGeoProjection::StartTransform(IGeoProjection* target, VARIANT_BOOL
 	AFX_MANAGE_STATE(AfxGetStaticModuleState());
 	*retval = VARIANT_FALSE;
 
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = true;
 #endif
 
@@ -873,7 +873,7 @@ STDMETHODIMP CGeoProjection::StartTransform(IGeoProjection* target, VARIANT_BOOL
 	{
 		*retval = VARIANT_TRUE;
 	}
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = false;
 #endif
 

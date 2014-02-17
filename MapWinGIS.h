@@ -40,7 +40,7 @@ extern IUtils* m_utils;
 IUtils* GetUtils();
 
 // comment these lines to turn off the memory leaking detection tools
-#ifdef _DEBUG
+#ifdef MEMLEAK
 #include "../debugging/MemLeakDetect.h"
 #pragma warning(disable:4100)
 extern CMemLeakDetect gMemLeakDetect;

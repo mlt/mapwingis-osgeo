@@ -58,7 +58,7 @@ IUtils* GetUtils()
 }
 
 // comment these lines to turn off the memory leaking detection tools
-#ifdef _DEBUG
+#ifdef MEMLEAK
 CMemLeakDetect gMemLeakDetect;
 #endif
 
@@ -74,7 +74,7 @@ BOOL CMapWinGISApp::InitInstance()
 	std::locale::global(std::locale("C"));
 	
 	// initialize all static variables, to keep our menory leaking report clean from them
-	#ifdef _DEBUG
+	#ifdef MEMLEAK
 		gMemLeakDetect.stopped = true;
 		GDALAllRegister();
 		gMemLeakDetect.stopped = false;

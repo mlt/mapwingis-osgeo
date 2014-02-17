@@ -344,7 +344,7 @@ bool CMeasuring::SetProjection(IGeoProjection* projNew, IGeoProjection* projWGS8
 	if (!Utility::put_ComReference(projWGS84New, (IDispatch**)&projWGS84, false))
 		return false;
 
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = true;
 #endif
 	if (proj)
@@ -365,7 +365,7 @@ bool CMeasuring::SetProjection(IGeoProjection* projNew, IGeoProjection* projWGS8
 			result = false;
 		}
 	}
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = false;
 #endif
 	return (result && transformationMode != tmNotDefined);

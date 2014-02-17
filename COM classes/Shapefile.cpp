@@ -2546,7 +2546,7 @@ bool CShapefile::ReprojectCore(IGeoProjection* newProjection, LONG* reprojectedC
 		return false;
 	}
 
-//#ifdef _DEBUG
+//#ifdef MEMLEAK
 //	gMemLeakDetect.stopped = true;
 //#endif
 
@@ -2555,7 +2555,7 @@ bool CShapefile::ReprojectCore(IGeoProjection* newProjection, LONG* reprojectedC
 
 	OGRCoordinateTransformation* transf = OGRCreateCoordinateTransformation( projSource, projTarget );
 
-//#ifdef _DEBUG
+//#ifdef MEMLEAK
 //	gMemLeakDetect.stopped = false;
 //#endif
 
