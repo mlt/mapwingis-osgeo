@@ -1,7 +1,6 @@
 // MapWinGIS.cpp : Implementation of CMapWinGISApp and DLL registration.
 #include "stdafx.h"
 #include <initguid.h>
-#include "MapWinGIS_i.c"
 #include "ShapefileColorScheme.h"
 #include "ShapefileColorBreak.h"
 #include "cpl_conv.h" 
