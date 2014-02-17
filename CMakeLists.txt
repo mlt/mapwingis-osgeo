@@ -326,8 +326,7 @@ SET_TARGET_PROPERTIES(MapWinGIS PROPERTIES SUFFIX ".ocx" COMPILE_FLAGS "/Yustdaf
 
 add_custom_command(
   TARGET MapWinGIS POST_BUILD
-  COMMAND mt.exe -nologo -tlb:MapWinGIS.tlb -dll:MapWinGIS.ocx -updateResource:MapWinGIS.ocx\;\#2
-  WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+  COMMAND mt.exe -nologo -tlb:${CMAKE_CURRENT_BINARY_DIR}/MapWinGIS.tlb -dll:$<TARGET_FILE_NAME:MapWinGIS> -updateResource:$<TARGET_FILE:MapWinGIS>\;\#2
   COMMENT "Embedding registration free manifest"
 )
 
