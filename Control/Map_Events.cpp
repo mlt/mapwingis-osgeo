@@ -1046,7 +1046,7 @@ BOOL CMapView::OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message)
 // *************************************************************
 //		OnTimer()
 // *************************************************************
-#ifdef WIN64
+#ifdef _WIN64
 void CMapView::OnTimer(UINT_PTR nIDEvent)
 #else
 void CMapView::OnTimer(UINT nIDEvent)
