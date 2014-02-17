@@ -696,10 +696,10 @@ STDMETHODIMP CTableClass::Open(BSTR dbfFilename, ICallback *cBack, VARIANT_BOOL 
 		bool readOnly = (dwAttrs & FILE_ATTRIBUTE_READONLY);
 
 		if (!readOnly)
-			dbfHandle = DBFOpen_MW(name,"rb+");
+			dbfHandle = DBFOpen(OLE2CA(dbfFilename),"rb+");
 
 		if( dbfHandle == NULL )
-				dbfHandle = DBFOpen_MW(name,"rb");
+				dbfHandle = DBFOpen(OLE2CA(dbfFilename),"rb");
 		
 		if( dbfHandle == NULL )
 		{	
@@ -825,7 +825,7 @@ bool CTableClass::SaveToFile(const CStringW& dbfFilename, bool updateFileInPlace
 			return false;
 		}
 
-		newdbfHandle = DBFCreate_MW(dbfFilename);
+		newdbfHandle = DBFCreate(CW2A(dbfFilename));
 		if( newdbfHandle == NULL )
 		{	
 			ErrorMessage(tkCANT_CREATE_DBF);

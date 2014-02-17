@@ -25,7 +25,7 @@
 #pragma once
 #include <set>
 #include "TableRow.h"
-#include "dbf.h"
+#include "shapefil.h"
 #include "Expression.h"
 #include "_ITableEvents_CP.H"
 
