@@ -83,7 +83,7 @@ protected:
 	//afx_msg void OnKeyPressEvent(USHORT nChar);
 	
 	// 64-bit compatibility -- Christopher Michaelis Feb 2009
-	#ifdef WIN64
+	#ifdef _WIN64
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	#else
 	afx_msg void OnTimer(UINT nIDEvent);

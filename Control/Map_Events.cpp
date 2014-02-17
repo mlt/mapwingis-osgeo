@@ -1421,7 +1421,7 @@ void CMapView::OnSendSelectBoxFinalChanged(){}
 // *************************************************************
 //		OnTimer()
 // *************************************************************
-#ifdef WIN64
+#ifdef _WIN64
 void CMapView::OnTimer(UINT_PTR nIDEvent)
 #else
 void CMapView::OnTimer(UINT nIDEvent)
