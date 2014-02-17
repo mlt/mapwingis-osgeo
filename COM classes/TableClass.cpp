@@ -710,14 +710,14 @@ STDMETHODIMP CTableClass::Open(BSTR dbfFilename, ICallback *cBack, VARIANT_BOOL 
 		// opening
 		if (!readOnly)
 		{
-			dbfHandle = DBFOpen_MW(OLE2CA(dbfFilename),"rb+");
+			dbfHandle = DBFOpen(OLE2CA(dbfFilename),"rb+");
 
 			// failed to open? try read only
 			if( dbfHandle == NULL )
-				dbfHandle = DBFOpen_MW(OLE2CA(dbfFilename),"rb");
+				dbfHandle = DBFOpen(OLE2CA(dbfFilename),"rb");
 		}
 		else
-			dbfHandle = DBFOpen_MW(OLE2CA(dbfFilename),"rb");
+			dbfHandle = DBFOpen(OLE2CA(dbfFilename),"rb");
 		
 		if( dbfHandle == NULL )
 		{	

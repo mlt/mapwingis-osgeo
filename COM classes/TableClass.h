@@ -34,7 +34,7 @@
 
 #include "Field.h"
 #include "TableRow.h"
-#include "dbf.h"
+#include "shapefil.h"
 #include "Expression.h"
 #include "MapWinGIS_i.h"
 #include "_ITableEvents_CP.H"
