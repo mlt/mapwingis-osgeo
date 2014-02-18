@@ -327,12 +327,13 @@ target_link_libraries(MapWinGIS
 SET_TARGET_PROPERTIES(MapWinGIS PROPERTIES SUFFIX ".ocx"
   DEBUG_POSTFIX _d
   COMPILE_FLAGS "/Yustdafx.h"
+  LINK_FLAGS "/MANIFEST:NO"
 #  LIBRARY_OUTPUT_DIRECTORY_DEBUG "${OSGEO_ROOT}/bin"
 )
 
 add_custom_command(
   TARGET MapWinGIS POST_BUILD
-  COMMAND mt.exe -nologo -tlb:${CMAKE_CURRENT_BINARY_DIR}/MapWinGIS.tlb -dll:$<TARGET_FILE_NAME:MapWinGIS> -updateResource:$<TARGET_FILE:MapWinGIS>\;\#2
+  COMMAND mt.exe -nologo -tlb:${CMAKE_CURRENT_BINARY_DIR}/MapWinGIS.tlb -dll:$<TARGET_FILE_NAME:MapWinGIS> -outputresource:$<TARGET_FILE:MapWinGIS>\;\#2
   COMMENT "Embedding registration free manifest"
 )
 
