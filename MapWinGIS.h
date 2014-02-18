@@ -56,8 +56,6 @@ class CMapWinGISApp : public COleControlModule
 public:
 	BOOL InitInstance();
 	int ExitInstance();
-private:
-	BOOL InitATL();
 };
 
 class GlobalClassFactory

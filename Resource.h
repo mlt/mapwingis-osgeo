@@ -41,6 +41,7 @@
 #define IDR_TILES                       136
 #define IDR_TILEPROVIDERS               140
 #define IDR_MEASURING                   141
+#define IDR_MAPWINGIS                   142
 #define IDS_MAP_PPG_CAPTION             200
 #define IDD_PROPPAGE_MAP                200
 #define IDC_ZOOMIN                      203
@@ -62,6 +63,6 @@
 #define _APS_NEXT_RESOURCE_VALUE        215
 #define _APS_NEXT_COMMAND_VALUE         32768
 #define _APS_NEXT_CONTROL_VALUE         201
-#define _APS_NEXT_SYMED_VALUE           142
+#define _APS_NEXT_SYMED_VALUE           143
 #endif
 #endif

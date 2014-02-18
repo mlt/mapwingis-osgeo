@@ -4,6 +4,7 @@
 // or project specific include files that are used frequently,
 // but are changed infrequently
 
+#define _ATL_APARTMENT_THREADED 
 #ifndef VC_EXTRALEAN
 #define VC_EXTRALEAN		// Exclude rarely-used stuff from Windows headers
 #endif
@@ -31,7 +32,6 @@
 #include <afxctl.h>         // MFC support for ActiveX Controls
 #include <afxext.h>         // MFC extensions
 #ifndef _AFX_NO_OLE_SUPPORT
-#include <afxdtctl.h>		// MFC support for Internet Explorer 4 Comon Controls
 #endif
 #ifndef _AFX_NO_AFXCMN_SUPPORT
 #include <afxcmn.h>			// MFC support for Windows Common Controls
@@ -61,3 +61,5 @@ const double pi = 3.1415926535897932384626433832795;
 const double pi_2 = 1.5707963267948966192313216916398;
 
 #include "UtilityFunctions.h"
+
+#include <atlcom.h>

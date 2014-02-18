@@ -1503,9 +1503,6 @@
     <None Include="COM classes\Vector.rgs">
       <Filter>COM classes\Resources</Filter>
     </None>
-    <None Include="MapWinGIS.def">
-      <Filter>Control</Filter>
-    </None>
     <None Include="Grid\fip\Makefile">
       <Filter>Grid\fip</Filter>
     </None>
@@ -1516,11 +1513,7 @@
     <None Include="Resource\cursor2.cur" />
     <None Include="Resource\cursor3.cur" />
     <None Include="Resource\cursor4.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <Midl Include="MapWinGIS.odl">
-      <Filter>Control</Filter>
-    </Midl>
+    <None Include="MapWinGIS.rgs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resource\Map.bmp" />
@@ -1537,5 +1530,10 @@
     <CustomBuild Include="Utilities\Templates.h">
       <Filter>Utilities</Filter>
     </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="MapWinGIS.idl">
+      <Filter>Control</Filter>
+    </Midl>
   </ItemGroup>
 </Project>

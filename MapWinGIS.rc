@@ -12,33 +12,12 @@
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
-///////////////////////////////////////////////////////////////////////////////
-//// Russian resources
-//
-//#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-//#ifdef _WIN32
-//LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
-//#pragma code_page(1251)
-//#endif //_WIN32
-//
-///////////////////////////////////////////////////////////////////////////////
-////
-//// REGISTRY
-////
-//
-//
-//#endif    // Russian resources
-///////////////////////////////////////////////////////////////////////////////
-
-
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -80,6 +59,7 @@ IDR_GLOBALSETTINGS      REGISTRY                "COM Classes/GlobalSettings.rgs"
 IDR_TILES               REGISTRY                "COM Classes/Tiles.rgs"
 IDR_TILEPROVIDERS       REGISTRY                "COM Classes/TileProviders.rgs"
 IDR_MEASURING           REGISTRY                "COM Classes/Measuring.rgs"
+IDR_MAPWINGIS           REGISTRY                "MapWinGIS.rgs"
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -160,7 +140,7 @@ IDB_MAP                 BITMAP                  "Resource\\Map.bmp"
 // Dialog
 //
 
-IDD_PROPPAGE_MAP DIALOG  0, 0, 250, 62
+IDD_PROPPAGE_MAP DIALOG 0, 0, 250, 62
 STYLE DS_SETFONT | WS_CHILD
 FONT 8, "MS Sans Serif"
 BEGIN
@@ -174,7 +154,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_PROPPAGE_MAP, DIALOG
     BEGIN
@@ -211,18 +191,18 @@ IDI_ICON1               ICON                    "Resource/zoom_in_16_2.ico"
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAP                 "Map Control"
     IDS_MAP_PPG             "Map Property Page"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_MAP_PPG_CAPTION     "General"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
