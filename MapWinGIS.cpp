@@ -162,7 +162,7 @@ STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv)
 {
 	AFX_MANAGE_STATE(AfxGetStaticModuleState());
 	
-#ifdef _DEBUG
+#ifdef MEMLEAK
 	bool state = gMemLeakDetect.stopped;
 	gMemLeakDetect.stopped = true;
 #endif
@@ -172,7 +172,7 @@ STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv)
 		hres = S_OK;
 	hres = _Module.GetClassObject(rclsid, riid, ppv);
 	
-#ifdef _DEBUG	
+#ifdef MEMLEAK
 	gMemLeakDetect.stopped = state;
 #endif
 
