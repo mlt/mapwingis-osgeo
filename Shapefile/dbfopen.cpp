@@ -140,7 +140,6 @@
  * Revision 1.54  2004/09/15 16:26:10  fwarmerdam
  * Treat all blank numeric fields as null too.
  */
-#include "stdafx.h"
 #include "shapefil.h"
 
 #include <math.h>
