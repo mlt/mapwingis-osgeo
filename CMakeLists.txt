@@ -345,5 +345,9 @@ add_custom_command(
   COMMENT "Generating type library from ODL"
 )
 
+add_subdirectory(tests)
+
 export(TARGETS MapWinGIS FILE MapWinGIS-config.cmake)
 export(PACKAGE MapWinGIS)
+
+#include(CTest)
