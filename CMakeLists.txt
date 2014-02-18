@@ -309,7 +309,7 @@ if(NOT SHAPELIB_LIBRARY)
   add_library(SHAPELIB STATIC Shapefile/dbfopen.cpp)
   set(SHAPELIB SHAPELIB)
 else()
-  set(SHAPELIB SHAPELIB_LIBRARY)
+  set(SHAPELIB ${SHAPELIB_LIBRARY})
 endif()
 
 # Image/tkTiff.cpp
