@@ -15,12 +15,20 @@
 static char THIS_FILE[] = __FILE__;
 #endif
 
+class CMapWinGISModule :
+	public ATL::CAtlMfcModule
+{
+public:
+	DECLARE_LIBID(LIBID_MapWinGIS);
+	DECLARE_REGISTRY_APPID_RESOURCEID(IDR_MAPWINGIS, "{8308CC9E-4AEF-4D31-9081-86CD61B9E641}");
+};
+
 const GUID CDECL BASED_CODE _tlid = { 0xc368d713, 0xcc5f, 0x40ed, { 0x9f, 0x53, 0xf8, 0x4f, 0xe1, 0x97, 0xb9, 0x6a } };
 const WORD _wVerMajor = 4;
 const WORD _wVerMinor = 9;
 
 CMapWinGISApp NEAR theApp;
-CComModule _Module;
+CMapWinGISModule _AtlModule;
 GlobalClassFactory m_factory;	// make sure that this one is initialized after the _Module above
 
 // ******************************************************
@@ -49,7 +57,7 @@ BOOL CMapWinGISApp::InitInstance()
 	}
 		
 	m_utils = NULL;
-	return COleControlModule::InitInstance() && InitATL();
+	return COleControlModule::InitInstance();
 }
 
 // *****************************************************
@@ -70,7 +78,7 @@ int CMapWinGISApp::ExitInstance()
 	RamCache::Close();
 	SQLiteCache::Close();
 
-	_Module.Term();
+	_AtlModule.Term();
 	return COleControlModule::ExitInstance();
 }
 
@@ -79,6 +87,10 @@ int CMapWinGISApp::ExitInstance()
 // **************************************************************
 STDAPI DllRegisterServer(void)
 {
+	_AtlModule.UpdateRegistryAppId(TRUE);
+	HRESULT hRes2 = _AtlModule.RegisterServer(TRUE);
+	if (hRes2 != S_OK)
+		return hRes2;
 	AFX_MANAGE_STATE(_afxModuleAddrThis);
 
 	if (!AfxOleRegisterTypeLib(AfxGetInstanceHandle(), _tlid))
@@ -87,19 +99,9 @@ STDAPI DllRegisterServer(void)
 	if (!COleObjectFactoryEx::UpdateRegistryAll(TRUE))
 		return ResultFromScode(SELFREG_E_CLASS);
 
-	return _Module.RegisterServer(TRUE);
 	
 
 	return NOERROR;
-}
-
-// **************************************************************
-//   GetModuleInstance
-// **************************************************************
-HINSTANCE GetModuleInstance()
-{
-	HINSTANCE instance = _Module.GetModuleInstance();
-	return instance;
 }
 
 // **************************************************************
@@ -107,6 +109,10 @@ HINSTANCE GetModuleInstance()
 // **************************************************************
 STDAPI DllUnregisterServer(void)
 {
+	_AtlModule.UpdateRegistryAppId(FALSE);
+	HRESULT hRes2 = _AtlModule.UnregisterServer(TRUE);
+	if (hRes2 != S_OK)
+		return hRes2;
 	AFX_MANAGE_STATE(_afxModuleAddrThis);
 
 	if (!AfxOleUnregisterTypeLib(_tlid, _wVerMajor, _wVerMinor))
@@ -114,8 +120,6 @@ STDAPI DllUnregisterServer(void)
 
 	if (!COleObjectFactoryEx::UpdateRegistryAll(FALSE))
 		return ResultFromScode(SELFREG_E_CLASS);
-
-	_Module.UnregisterServer(TRUE); //TRUE indicates that typelib is unreg'd
 
 	return NOERROR;
 }
@@ -125,8 +129,10 @@ STDAPI DllUnregisterServer(void)
 // **************************************************************
 STDAPI DllCanUnloadNow(void)
 {
+	if (_AtlModule.GetLockCount() > 0)
+		return S_FALSE;
 	AFX_MANAGE_STATE(AfxGetStaticModuleState());
-	return (AfxDllCanUnloadNow()==S_OK && _Module.GetLockCount()==0) ? S_OK : S_FALSE;
+	return AfxDllCanUnloadNow();
 }
 
 // ******************************************************************
@@ -142,10 +148,12 @@ STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv)
 #endif
 
 	HRESULT hres;
-	if(AfxDllGetClassObject(rclsid, riid, ppv) == S_OK)
+	if (S_OK == _AtlModule.GetClassObject(rclsid, riid, ppv))
+		hres = S_OK;
+	else if(AfxDllGetClassObject(rclsid, riid, ppv) == S_OK)
 		hres = S_OK;
 	else
-		hres = _Module.GetClassObject(rclsid, riid, ppv);
+		hres = S_FALSE;
 	
 #ifdef MEMLEAK
 	gMemLeakDetect.stopped = state;
@@ -163,12 +171,3 @@ BEGIN_OBJECT_MAP(ObjectMap)
 	OBJECT_ENTRY(CLSID_ShapefileColorScheme, CShapefileColorScheme)
 	OBJECT_ENTRY(CLSID_ShapefileColorBreak, CShapefileColorBreak)
 END_OBJECT_MAP()
-
-// *****************************************************************
-//		InitATL
-// *****************************************************************
-BOOL CMapWinGISApp::InitATL()
-{
-	_Module.Init(ObjectMap, AfxGetInstanceHandle());
-	return TRUE;
-}

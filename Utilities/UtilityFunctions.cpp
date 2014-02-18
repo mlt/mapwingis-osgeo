@@ -1144,10 +1144,11 @@ namespace Utility
 	// ****************************************************************** 
 	//		GetFileVersionString
 	// ****************************************************************** 
+EXTERN_C IMAGE_DOS_HEADER __ImageBase;
 	CString GetFileVersionString()
 	{
 		wchar_t* path = new wchar_t[MAX_PATH + 1];
-		GetModuleFileNameW(GetModuleInstance(), path, MAX_PATH);
+		GetModuleFileNameW((HINSTANCE)&__ImageBase, path, MAX_PATH);
 
 		DWORD  verHandle = NULL;
 		UINT   size      = 0;

@@ -17,7 +17,6 @@
 extern const GUID CDECL _tlid;
 extern const WORD _wVerMajor;
 extern const WORD _wVerMinor;
-HINSTANCE GetModuleInstance();
 
 // **********************************************************
 //		CMapWinGISApp class
@@ -27,8 +26,6 @@ class CMapWinGISApp : public COleControlModule
 public:
 	BOOL InitInstance();
 	int ExitInstance();
-private:
-	BOOL InitATL();
 };
 
 extern GlobalClassFactory m_factory;
