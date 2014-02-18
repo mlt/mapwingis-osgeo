@@ -294,10 +294,8 @@ Utilities/varH.cpp
 Utilities/vertex.cpp
 Utilities/XRedBlackTree.cpp
 Utilities/YRedBlackTree.cpp
+MapWinGIS.tlb
 MapWinGIS.rc
-MapWinGIS.def
-MapWinGIS.odl
-MapWinGIS_i.c
 )
 
 set_source_files_properties(StdAfx.cpp PROPERTIES COMPILE_FLAGS "/Ycstdafx.h" OBJECT_OUTPUTS "stdafx.pch")
@@ -338,9 +336,9 @@ add_custom_command(
 )
 
 add_custom_command(
-  OUTPUT MapWinGIS_i.c MapWinGIS_i.h MapWinGIS_p.c dlldata.c MapWinGIS.tlb
-  COMMAND midl.exe /header MapWinGIS_i.h ${CMAKE_CURRENT_SOURCE_DIR}/MapWinGIS.odl
-  DEPENDS MapWinGIS.odl
+  OUTPUT MapWinGIS.tlb MapWinGIS_i.c MapWinGIS_i.h MapWinGIS_p.c dlldata.c
+  COMMAND midl.exe /header MapWinGIS_i.h ${CMAKE_CURRENT_SOURCE_DIR}/MapWinGIS.idl
+  DEPENDS MapWinGIS.idl
   WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
   COMMENT "Generating type library from ODL"
 )
