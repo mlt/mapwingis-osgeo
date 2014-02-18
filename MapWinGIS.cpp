@@ -167,10 +167,9 @@ STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv)
 	gMemLeakDetect.stopped = true;
 #endif
 
-	HRESULT hres;
-	if(AfxDllGetClassObject(rclsid, riid, ppv) == S_OK)
-		hres = S_OK;
-	hres = _Module.GetClassObject(rclsid, riid, ppv);
+	HRESULT hres = AfxDllGetClassObject(rclsid, riid, ppv);
+	if(FAILED(hres))
+		hres = _Module.GetClassObject(rclsid, riid, ppv);
 	
 #ifdef MEMLEAK
 	gMemLeakDetect.stopped = state;
