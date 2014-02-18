@@ -1,12 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+project(MapWinGIS)
+
 include(osgeo_hint)
 if(EXISTS ${OSGEO_ROOT})
   SET(CMAKE_INSTALL_PREFIX ${OSGEO_ROOT})
 endif()
 
-project(MapWinGIS)
 
 SET(ENV{GDAL_ROOT} ${OSGEO_ROOT})
 
@@ -16,7 +17,7 @@ find_package(TIFF REQUIRED)
 find_package(GEOTIFF REQUIRED)
 find_package(SQLITE REQUIRED)
 find_package(SpatialIndex REQUIRED)
-find_package(SHAPELIB REQUIRED)
+find_package(SHAPELIB)# REQUIRED
 
 include_directories(${GDAL_INCLUDE_DIR} ${GEOS_INCLUDE_DIR} ${SPATIALINDEX_INCLUDE_DIR})
 
@@ -303,13 +304,15 @@ set_source_files_properties(StdAfx.cpp PROPERTIES COMPILE_FLAGS "/Ycstdafx.h" OB
 set_source_files_properties(${MAPWINGIS_SRCS} PROPERTIES OBJECT_DEPENDS "stdafx.pch")
 set_source_files_properties(MapWinGIS_i.c Image/cq.c PROPERTIES COMPILE_FLAGS "/Y-")
 
-#Utilities/SQLite/shell.c
-#Shapefile/dbf.cpp
-#Shapefile/dbfopen.cpp
-# MapWinGIS_p.c
-# dlldata.c
+if(NOT SHAPELIB_LIBRARY)
+  message("Using bundled ShapeLib fragment")
+  add_library(SHAPELIB STATIC Shapefile/dbfopen.cpp)
+  set(SHAPELIB SHAPELIB)
+else()
+  set(SHAPELIB SHAPELIB_LIBRARY)
+endif()
+
 # Image/tkTiff.cpp
-# Utilities/SQLite/sqlite3.c
 # Utilities/RegistryKey.cpp
 # Utilities/Templates.cpp
 # Utilities/Debugging/MemLeakDetect.cpp
@@ -319,12 +322,12 @@ target_link_libraries(MapWinGIS
                       ${GDAL_LIBRARY} ${GEOS_LIBRARY}
                       ${SPATIALINDEX_LIBRARY} ${SQLITE_LIBRARY}
                       ${TIFF_LIBRARY} ${GEOTIFF_LIBRARY}
-                      ${SHAPELIB_LIBRARY}
+                      ${SHAPELIB}
                       wininet.lib GdiPlus.lib)
 SET_TARGET_PROPERTIES(MapWinGIS PROPERTIES SUFFIX ".ocx"
   DEBUG_POSTFIX _d
   COMPILE_FLAGS "/Yustdafx.h"
-  LIBRARY_OUTPUT_DIRECTORY_DEBUG "${OSGEO_ROOT}/bin"
+#  LIBRARY_OUTPUT_DIRECTORY_DEBUG "${OSGEO_ROOT}/bin"
 )
 
 add_custom_command(
