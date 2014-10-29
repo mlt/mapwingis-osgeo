@@ -1,0 +1,16 @@
+<ColoringScheme OcxVersion="4.9.2.0" FileType="GridColorScheme" FileVersion="2" FilenamesEncoding="utf8" SchemeType="Grid" GroupName="Data Layers" GridName="18665_1.KAP" BandIndex="1">
+  <GridColoringScheme Key="" NoDataColor="0" LightSourceIntensity="0.700000" AmbientIntensity="0.700000" LightSourceElevation="1.000000" LightSourceAzimuth="0.000000" LightSourceI="0.000000" LightSourceJ="-0.017452" LightSourceK="0.999848">
+    <GridColorBreaks>
+      <GridColorBreakClass HighColor="0" LowColor="0" LowValue="0.000000" HighValue="0.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="16777215" LowColor="16777215" LowValue="1.000000" HighValue="1.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="9849307" LowColor="9849307" LowValue="2.000000" HighValue="2.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="10203286" LowColor="10203286" LowValue="3.000000" HighValue="3.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="7500402" LowColor="7500402" LowValue="4.000000" HighValue="4.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="13229014" LowColor="13229014" LowValue="5.000000" HighValue="5.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="10737903" LowColor="10737903" LowValue="6.000000" HighValue="6.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="12708084" LowColor="12708084" LowValue="7.000000" HighValue="7.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="15719889" LowColor="15719889" LowValue="8.000000" HighValue="8.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+      <GridColorBreakClass HighColor="0" LowColor="0" LowValue="9.000000" HighValue="254.000000" Caption="" ColoringType="0" GradientModel="1" Key="" />
+    </GridColorBreaks>
+  </GridColoringScheme>
+</ColoringScheme>

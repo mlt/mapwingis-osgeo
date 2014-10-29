@@ -1,0 +1,35 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="GEOTIFF_CHAR__GeogAngularUnitsGeoKey">Angular_Degree</MDI>
+    <MDI key="GEOTIFF_CHAR__GeogLinearUnitsGeoKey">Linear_Meter</MDI>
+    <MDI key="GEOTIFF_CHAR__GeographicTypeGeoKey">GCS_NAD27</MDI>
+    <MDI key="GEOTIFF_CHAR__GTModelTypeGeoKey">ModelTypeProjected</MDI>
+    <MDI key="GEOTIFF_CHAR__GTRasterTypeGeoKey">RasterPixelIsArea</MDI>
+    <MDI key="GEOTIFF_CHAR__ProjCoordTransGeoKey">CT_Mercator</MDI>
+    <MDI key="GEOTIFF_CHAR__ProjectedCSTypeGeoKey">User-Defined</MDI>
+    <MDI key="GEOTIFF_CHAR__ProjectionGeoKey">User-Defined</MDI>
+    <MDI key="GEOTIFF_CHAR__ProjLinearUnitsGeoKey">Linear_Meter</MDI>
+    <MDI key="GEOTIFF_NUM__1024__GTModelTypeGeoKey">1</MDI>
+    <MDI key="GEOTIFF_NUM__1025__GTRasterTypeGeoKey">1</MDI>
+    <MDI key="GEOTIFF_NUM__1026__GTCitationGeoKey">MER         E000</MDI>
+    <MDI key="GEOTIFF_NUM__2048__GeographicTypeGeoKey">4267</MDI>
+    <MDI key="GEOTIFF_NUM__2052__GeogLinearUnitsGeoKey">9001</MDI>
+    <MDI key="GEOTIFF_NUM__2054__GeogAngularUnitsGeoKey">9102</MDI>
+    <MDI key="GEOTIFF_NUM__3072__ProjectedCSTypeGeoKey">32767</MDI>
+    <MDI key="GEOTIFF_NUM__3074__ProjectionGeoKey">32767</MDI>
+    <MDI key="GEOTIFF_NUM__3075__ProjCoordTransGeoKey">7</MDI>
+    <MDI key="GEOTIFF_NUM__3076__ProjLinearUnitsGeoKey">9001</MDI>
+    <MDI key="GEOTIFF_NUM__3080__ProjNatOriginLongGeoKey">-117.474543</MDI>
+    <MDI key="GEOTIFF_NUM__3081__ProjNatOriginLatGeoKey">33.764462</MDI>
+    <MDI key="GEOTIFF_NUM__3090__ProjCenterEastingGeoKey">0.000000</MDI>
+    <MDI key="GEOTIFF_NUM__3091__ProjCenterNorthingGeoKey">0.000000</MDI>
+    <MDI key="GEOTIFF_NUM__3092__ProjScaleAtNatOriginGeoKey">1.000000</MDI>
+    <MDI key="IMAGE__INPUT_FILE_SIZE">266172.000000</MDI>
+    <MDI key="IMAGE__INPUT_FORMAT">GeoTIFF</MDI>
+    <MDI key="IMAGE__INPUT_NAME">mercator.tif</MDI>
+    <MDI key="VERSION">MG3</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>-3.40282346638529E+038</NoDataValue>
+  </PAMRasterBand>
+</PAMDataset>
