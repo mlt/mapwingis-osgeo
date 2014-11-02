@@ -1,0 +1,236 @@
+<MapWindow version="4.8.2">
+  <Labels AppendLine1="" AppendLine2="" PrependLine1="" PrependLine2="" Field="11" Field2="0" Font="Microsoft Sans Serif" Size="8.25" LabelAllParts="False" Bold="False" Italic="False" Underline="False" Color="-16777216" Justification="1" UseMinZoomLevel="True" Scaled="True" UseShadows="False" ShadowColor="-1" Offset="0" StandardViewWidth="318.652517923637" UseLabelCollision="True" RemoveDuplicateLabels="True" RotationField="" Scale="20000000">
+    <Label X="-69.9826746627984" Y="12.5208888076613" Rotation="0" Name="Aruba" />
+    <Label X="66.0047311491006" Y="33.8352321622164" Rotation="0" Name="Afghanistan" />
+    <Label X="17.5373614914184" Y="-12.2933611237583" Rotation="0" Name="Angola" />
+    <Label X="-63.0649846367136" Y="18.2239669201822" Rotation="0" Name="Anguilla" />
+    <Label X="20.0498303369089" Y="41.1424512769039" Rotation="0" Name="Albania" />
+    <Label X="19.9532463614007" Y="60.2149003517055" Rotation="0" Name="Aland" />
+    <Label X="1.56053368138699" Y="42.5422917438576" Rotation="0" Name="Andorra" />
+    <Label X="-68.9951370917378" Y="12.1418431665486" Rotation="0" Name="Neth. Antilles" />
+    <Label X="54.3035541374146" Y="23.9076285859581" Rotation="0" Name="United Arab Emirates" />
+    <Label X="-65.1798088088737" Y="-35.381353466474" Rotation="0" Name="Argentina" />
+    <Label X="44.9300883024724" Y="40.2913586419107" Rotation="0" Name="Armenia" />
+    <Label X="-170.718018603918" Y="-14.3044892245165" Rotation="0" Name="Samoa" />
+    <Label X="19.9211326661655" Y="-80.5085641484352" Rotation="0" Name="Antarctica" />
+    <Label X="123.583830386651" Y="-12.429942548688" Rotation="0" Name="Ashmore and Cartier Is." />
+    <Label X="69.2267341625536" Y="-49.2489599175069" Rotation="0" Name="Southern and Antarctic Lands" />
+    <Label X="-61.8172548081804" Y="17.168926499902" Rotation="0" Name="Antigua and Barbuda" />
+    <Label X="134.490998767" Y="-25.7328873646298" Rotation="0" Name="Australia" />
+    <Label X="14.1264780862004" Y="47.5854984701283" Rotation="0" Name="Austria" />
+    <Label X="47.5441277088225" Y="40.2885945588445" Rotation="0" Name="Azerbaijan" />
+    <Label X="29.8751200962327" Y="-3.35939256638732" Rotation="0" Name="Burundi" />
+    <Label X="4.64064572249493" Y="50.6398143510775" Rotation="0" Name="Belgium" />
+    <Label X="2.32784526833016" Y="9.64175330688163" Rotation="0" Name="Benin" />
+    <Label X="-1.75456839973964" Y="12.2695368060924" Rotation="0" Name="Burkina Faso" />
+    <Label X="90.2381279254393" Y="23.8673041161346" Rotation="0" Name="Bangladesh" />
+    <Label X="25.2155232705418" Y="42.7688998818693" Rotation="0" Name="Bulgaria" />
+    <Label X="50.5419775945416" Y="26.0420084475279" Rotation="0" Name="Bahrain" />
+    <Label X="-78.7436634996544" Y="26.5006566431685" Rotation="0" Name="Bahamas" />
+    <Label X="17.7687658778341" Y="44.1744991186867" Rotation="0" Name="Bosnia and Herzegovina" />
+    <Label X="-62.8406871207154" Y="17.8988104464392" Rotation="0" Name="Saint Barthelemy" />
+    <Label X="28.0320871145911" Y="53.5313115529482" Rotation="0" Name="Belarus" />
+    <Label X="-88.7101022829366" Y="17.2002747476156" Rotation="0" Name="Belize" />
+    <Label X="-64.754541854214" Y="32.3136859400246" Rotation="0" Name="Bermuda" />
+    <Label X="-64.685389204355" Y="-16.7081453568471" Rotation="0" Name="Bolivia" />
+    <Label X="-53.0978319935982" Y="-10.7877756687727" Rotation="0" Name="Brazil" />
+    <Label X="-59.5598019757513" Y="13.1814537121218" Rotation="0" Name="Barbados" />
+    <Label X="114.722025537758" Y="4.51968241350374" Rotation="0" Name="Brunei" />
+    <Label X="90.4018949955974" Y="27.4110618977888" Rotation="0" Name="Bhutan" />
+    <Label X="23.7985372981283" Y="-22.1840203129252" Rotation="0" Name="Botswana" />
+    <Label X="20.4682636425369" Y="6.56823002925419" Rotation="0" Name="Central African Rep." />
+    <Label X="-98.30775722389" Y="61.3620682567922" Rotation="0" Name="Canada" />
+    <Label X="8.20866006480293" Y="46.7978529640324" Rotation="0" Name="Switzerland" />
+    <Label X="-71.3825587868746" Y="-37.7306975325096" Rotation="0" Name="Chile" />
+    <Label X="103.819073845097" Y="36.5617680094301" Rotation="0" Name="China" />
+    <Label X="-5.56921598122171" Y="7.62842868018835" Rotation="0" Name="Cote D'Ivoire" />
+    <Label X="12.7396426639383" Y="5.691102961862" Rotation="0" Name="Cameroon" />
+    <Label X="23.643956365973" Y="-2.87746012607791" Rotation="0" Name="Congo (Kinshasa)" />
+    <Label X="15.2196572205815" Y="-0.837881718352222" Rotation="0" Name="Congo (Brazzaville)" />
+    <Label X="-159.787241502589" Y="-21.2192681261274" Rotation="0" Name="Cook Is." />
+    <Label X="-73.0811493586096" Y="3.91383156156713" Rotation="0" Name="Colombia" />
+    <Label X="-84.1920878574884" Y="9.97634240035283" Rotation="0" Name="Costa Rica" />
+    <Label X="-79.0160691368748" Y="21.6229002297797" Rotation="0" Name="Cuba" />
+    <Label X="-81.1071368069555" Y="19.3051785344157" Rotation="0" Name="Cayman Is." />
+    <Label X="33.5684401041258" Y="35.2627605000612" Rotation="0" Name="Northern Cyprus" />
+    <Label X="33.0060035796821" Y="34.9166693202807" Rotation="0" Name="Cyprus" />
+    <Label X="15.3124006462199" Y="49.7334107342454" Rotation="0" Name="Czech Rep." />
+    <Label X="10.3857769316588" Y="51.1069790291654" Rotation="0" Name="Germany" />
+    <Label X="42.5606768130754" Y="11.7487205177596" Rotation="0" Name="Djibouti" />
+    <Label X="-61.3577312205394" Y="15.4394721104216" Rotation="0" Name="Dominica" />
+    <Label X="10.0279941836047" Y="55.9812639101525" Rotation="0" Name="Denmark" />
+    <Label X="-70.5056908567409" Y="18.8943308025936" Rotation="0" Name="Dominican Rep." />
+    <Label X="2.6173210158407" Y="28.1589384364829" Rotation="0" Name="Algeria" />
+    <Label X="-78.7520357293492" Y="-1.42381948561518" Rotation="0" Name="Ecuador" />
+    <Label X="29.8618993014483" Y="26.4959310820037" Rotation="0" Name="Egypt" />
+    <Label X="38.8461544358569" Y="15.361868809797" Rotation="0" Name="Eritrea" />
+    <Label X="-3.6475487363451" Y="40.244486259039" Rotation="0" Name="Spain" />
+    <Label X="25.5424855470738" Y="58.671924155352" Rotation="0" Name="Estonia" />
+    <Label X="39.6008013971827" Y="8.6227841748343" Rotation="0" Name="Ethiopia" />
+    <Label X="26.2746702391259" Y="64.4988484446487" Rotation="0" Name="Finland" />
+    <Label X="174.58720421783" Y="-21.6800717098889" Rotation="0" Name="Fiji" />
+    <Label X="-59.5732057359059" Y="-51.680824476936" Rotation="0" Name="Falkland Islands" />
+    <Label X="-0.0411547509671948" Y="42.6891258815145" Rotation="0" Name="France" />
+    <Label X="-6.88096322242081" Y="62.0538622661523" Rotation="0" Name="Faroe Is." />
+    <Label X="11.7886300470917" Y="-0.586603288427008" Rotation="0" Name="Gabon" />
+    <Label X="-2.9998868225383" Y="55.0371809027582" Rotation="0" Name="United Kingdom" />
+    <Label X="43.507789947285" Y="42.16855943592" Rotation="0" Name="Georgia" />
+    <Label X="-2.57240157871749" Y="49.4680985527299" Rotation="0" Name="Guernsey" />
+    <Label X="-1.21676901306767" Y="7.95345123809299" Rotation="0" Name="Ghana" />
+    <Label X="-10.9406637884087" Y="10.4362159487016" Rotation="0" Name="Guinea" />
+    <Label X="-15.3960180837428" Y="13.44965377227" Rotation="0" Name="Gambia" />
+    <Label X="-14.9497294061795" Y="12.0474445394404" Rotation="0" Name="Guinea-Bissau" />
+    <Label X="10.3413889827743" Y="1.70554042294543" Rotation="0" Name="Equatorial Guinea" />
+    <Label X="22.9190458513383" Y="39.6289250758381" Rotation="0" Name="Greece" />
+    <Label X="-61.6821941457527" Y="12.1172554980134" Rotation="0" Name="Grenada" />
+    <Label X="-41.3419103495888" Y="74.7105136943303" Rotation="0" Name="Greenland" />
+    <Label X="-90.3648228778497" Y="15.6940415834111" Rotation="0" Name="Guatemala" />
+    <Label X="144.767922431217" Y="13.4416654994322" Rotation="0" Name="Guam" />
+    <Label X="-58.9820259586011" Y="4.793780521075" Rotation="0" Name="Guyana" />
+    <Label X="114.11379861833" Y="22.3982878168568" Rotation="0" Name="Hong Kong" />
+    <Label X="73.5205271232812" Y="-53.0872530094801" Rotation="0" Name="Heard I. and McDonald Is." />
+    <Label X="-86.6151684554733" Y="14.8268822491095" Rotation="0" Name="Honduras" />
+    <Label X="16.2934037614679" Y="45.0088292506644" Rotation="0" Name="Croatia" />
+    <Label X="-72.6852736402388" Y="18.9350096088295" Rotation="0" Name="Haiti" />
+    <Label X="19.3955938085967" Y="47.1627771188122" Rotation="0" Name="Hungary" />
+    <Label X="140.976129185144" Y="-9.11871957767715" Rotation="0" Name="Indonesia" />
+    <Label X="-4.53873821925163" Y="54.2241964959117" Rotation="0" Name="Isle of Man" />
+    <Label X="79.6119735386288" Y="22.8857804795386" Rotation="0" Name="India" />
+    <Label X="96.9252779479885" Y="-12.1732101375852" Rotation="0" Name="Indian Ocean Terr." />
+    <Label X="72.4621716653386" Y="-7.33779469160228" Rotation="0" Name="Indian Ocean Terr." />
+    <Label X="-8.13793166605948" Y="53.1754425966333" Rotation="0" Name="Ireland" />
+    <Label X="54.2740707112421" Y="32.5750328669386" Rotation="0" Name="Iran" />
+    <Label X="43.7435320360174" Y="33.0397051098447" Rotation="0" Name="Iraq" />
+    <Label X="-18.5739708561105" Y="64.9957526261267" Rotation="0" Name="Iceland" />
+    <Label X="34.9292171567248" Y="31.5365766464438" Rotation="0" Name="Israel" />
+    <Label X="12.0701895040419" Y="42.7971654331019" Rotation="0" Name="Italy" />
+    <Label X="-77.3148255582763" Y="18.1569547642625" Rotation="0" Name="Jamaica" />
+    <Label X="-2.12687654805872" Y="49.2183748817409" Rotation="0" Name="Jersey" />
+    <Label X="36.7713725055184" Y="31.245793892059" Rotation="0" Name="Jordan" />
+    <Label X="142.171611769784" Y="45.3256316188297" Rotation="0" Name="Japan" />
+    <Label X="77.1801128668149" Y="35.3923661893519" Rotation="0" Name="Kashmir" />
+    <Label X="67.2914965675503" Y="48.1568795387498" Rotation="0" Name="Kazakhstan" />
+    <Label X="37.7959443662502" Y="0.599874598165303" Rotation="0" Name="Kenya" />
+    <Label X="74.5226656561434" Y="41.4540377340546" Rotation="0" Name="Kyrgyzstan" />
+    <Label X="104.906943120772" Y="12.7200493243987" Rotation="0" Name="Cambodia" />
+    <Label X="-62.7020070054496" Y="17.2860252954754" Rotation="0" Name="Saint Kitts and Nevis" />
+    <Label X="127.839169263266" Y="36.3852462986031" Rotation="0" Name="South Korea" />
+    <Label X="20.8724961342296" Y="42.5707841766267" Rotation="0" Name="Kosovo" />
+    <Label X="47.5869936157124" Y="29.3343167742336" Rotation="0" Name="Kuwait" />
+    <Label X="103.737721233489" Y="18.5021796889744" Rotation="0" Name="Laos" />
+    <Label X="35.8801632747389" Y="33.9230699324897" Rotation="0" Name="Lebanon" />
+    <Label X="-9.32207780614622" Y="6.45278272987561" Rotation="0" Name="Liberia" />
+    <Label X="18.0086578182865" Y="27.0309424671817" Rotation="0" Name="Libya" />
+    <Label X="-60.9696932930331" Y="13.8947836988811" Rotation="0" Name="Saint Lucia" />
+    <Label X="9.53573593589089" Y="47.136654467512" Rotation="0" Name="Liechtenstein" />
+    <Label X="80.7010779487805" Y="7.61266308936266" Rotation="0" Name="Sri Lanka" />
+    <Label X="28.2272277268512" Y="-29.5800467028606" Rotation="0" Name="Lesotho" />
+    <Label X="23.8872003542162" Y="55.3261107799138" Rotation="0" Name="Lithuania" />
+    <Label X="6.07182681198861" Y="49.7672468689982" Rotation="0" Name="Luxembourg" />
+    <Label X="24.9123703999795" Y="56.8508530551239" Rotation="0" Name="Latvia" />
+    <Label X="113.509331018361" Y="22.2231080711376" Rotation="0" Name="Macau" />
+    <Label X="-63.0585271404491" Y="18.0713680803611" Rotation="0" Name="Saint Martin" />
+    <Label X="-8.45616044551103" Y="29.8376279268728" Rotation="0" Name="Morocco" />
+    <Label X="7.40628054854303" Y="43.7527611510323" Rotation="0" Name="Monaco" />
+    <Label X="28.4567374155504" Y="47.1949932294678" Rotation="0" Name="Moldova" />
+    <Label X="46.7047375065252" Y="-19.3718959883372" Rotation="0" Name="Madagascar" />
+    <Label X="73.494821811827" Y="4.15519887940724" Rotation="0" Name="Maldives" />
+    <Label X="-102.523450417075" Y="23.9475393188698" Rotation="0" Name="Mexico" />
+    <Label X="21.6821134316135" Y="41.5953105912466" Rotation="0" Name="Macedonia" />
+    <Label X="-3.54268793843557" Y="17.3458146053196" Rotation="0" Name="Mali" />
+    <Label X="14.4052204148209" Y="35.9215131552798" Rotation="0" Name="Malta" />
+    <Label X="96.4884320692226" Y="21.1856651397548" Rotation="0" Name="Myanmar" />
+    <Label X="19.2388381965571" Y="42.7889115013718" Rotation="0" Name="Montenegro" />
+    <Label X="103.052996509985" Y="46.8268143482075" Rotation="0" Name="Mongolia" />
+    <Label X="35.5332785864704" Y="-17.2714638024996" Rotation="0" Name="Mozambique" />
+    <Label X="-10.3477973943153" Y="20.2573692582793" Rotation="0" Name="Mauritania" />
+    <Label X="-62.1851980663926" Y="16.7394136122381" Rotation="0" Name="Montserrat" />
+    <Label X="57.5712075751763" Y="-20.2777156000369" Rotation="0" Name="Mauritius" />
+    <Label X="34.2893585003349" Y="-13.2180697045636" Rotation="0" Name="Malawi" />
+    <Label X="109.6288952983" Y="2.02752513265388" Rotation="0" Name="Malaysia" />
+    <Label X="17.2096276881525" Y="-22.1303079124455" Rotation="0" Name="Namibia" />
+    <Label X="165.684920747038" Y="-21.2999020598147" Rotation="0" Name="New Caledonia" />
+    <Label X="9.3854645392094" Y="17.419126049656" Rotation="0" Name="Niger" />
+    <Label X="167.94920199221" Y="-29.0514384507283" Rotation="0" Name="Norfolk I." />
+    <Label X="8.0894424319922" Y="9.59411807474214" Rotation="0" Name="Nigeria" />
+    <Label X="-85.0305289385517" Y="12.8470963298605" Rotation="0" Name="Nicaragua" />
+    <Label X="-169.869953699231" Y="-19.0494622962397" Rotation="0" Name="Niue" />
+    <Label X="5.59095225794632" Y="52.2675012422552" Rotation="0" Name="Netherlands" />
+    <Label X="14.0593682009923" Y="64.4430346593425" Rotation="0" Name="Norway" />
+    <Label X="83.915836695968" Y="28.2489136227298" Rotation="0" Name="Nepal" />
+    <Label X="166.932585170231" Y="-0.519141993258166" Rotation="0" Name="Nauru" />
+    <Label X="171.484953935194" Y="-41.8111282495545" Rotation="0" Name="New Zealand" />
+    <Label X="56.0916596679468" Y="20.6051541199257" Rotation="0" Name="Oman" />
+    <Label X="69.3395802682976" Y="29.9497522098157" Rotation="0" Name="Pakistan" />
+    <Label X="-80.1191515208964" Y="8.51751189883352" Rotation="0" Name="Panama" />
+    <Label X="-128.317040934212" Y="-24.3649859521233" Rotation="0" Name="Pitcairn Islands" />
+    <Label X="-74.3824288896328" Y="-9.15280280700654" Rotation="0" Name="Peru" />
+    <Label X="121.538659295743" Y="13.0888913029455" Rotation="0" Name="Philippines" />
+    <Label X="134.534661899962" Y="7.36063629803984" Rotation="0" Name="Palau" />
+    <Label X="145.207449182675" Y="-6.46416275681786" Rotation="0" Name="Papua New Guinea" />
+    <Label X="19.3901184079068" Y="52.1275953675252" Rotation="0" Name="Poland" />
+    <Label X="-66.4730731418115" Y="18.2281271117668" Rotation="0" Name="Puerto Rico" />
+    <Label X="127.192478124478" Y="40.153502913388" Rotation="0" Name="North Korea" />
+    <Label X="-8.50105505788424" Y="39.5955024706913" Rotation="0" Name="Portugal" />
+    <Label X="-58.4001408407644" Y="-23.2282389570824" Rotation="0" Name="Paraguay" />
+    <Label X="35.1962995805422" Y="31.916132887059" Rotation="0" Name="Palestinian Terr." />
+    <Label X="-143.670191413326" Y="-16.580848077056" Rotation="0" Name="French Polynesia" />
+    <Label X="51.1847851223637" Y="25.3060093606713" Rotation="0" Name="Qatar" />
+    <Label X="24.9729328573848" Y="45.8524293864501" Rotation="0" Name="Romania" />
+    <Label X="96.686573524434" Y="61.9805216834525" Rotation="0" Name="Russia" />
+    <Label X="29.9198911322146" Y="-1.99033199254459" Rotation="0" Name="Rwanda" />
+    <Label X="-12.2198297022049" Y="24.2295635742129" Rotation="0" Name="Western Sahara" />
+    <Label X="44.5368704128432" Y="24.1224546676961" Rotation="0" Name="Saudi Arabia" />
+    <Label X="30.0157366164686" Y="13.8649369763011" Rotation="0" Name="Sudan" />
+    <Label X="-14.4734890388818" Y="14.3662438104821" Rotation="0" Name="Senegal" />
+    <Label X="103.817253203082" Y="1.35877066126322" Rotation="0" Name="Singapore" />
+    <Label X="-36.4332044763757" Y="-54.4648715169222" Rotation="0" Name="South Georgia" />
+    <Label X="-5.77504248699273" Y="-15.9567001278347" Rotation="0" Name="Saint Helena" />
+    <Label X="18.3632846420765" Y="78.8247204579059" Rotation="0" Name="Svalbard and Jan Mayen Is." />
+    <Label X="161.409713983403" Y="-9.68163095463251" Rotation="0" Name="Solomon Islands" />
+    <Label X="-11.7927120889612" Y="8.56329068551665" Rotation="0" Name="Sierra Leone" />
+    <Label X="-88.8716445618218" Y="13.7394400781476" Rotation="0" Name="El Salvador" />
+    <Label X="12.4592302884579" Y="43.9418693889492" Rotation="0" Name="San Marino" />
+    <Label X="46.2519833051009" Y="9.73345794572804" Rotation="0" Name="Somaliland" />
+    <Label X="45.7071624332941" Y="4.75065194889043" Rotation="0" Name="Somalia" />
+    <Label X="-56.3031933880902" Y="46.9191998594505" Rotation="0" Name="Saint Pierre and Miquelon" />
+    <Label X="20.7895812086321" Y="44.2215030829565" Rotation="0" Name="Serbia" />
+    <Label X="6.68696170413784" Y="0.404368394366188" Rotation="0" Name="Sao Tome and Principe" />
+    <Label X="-55.9123483336061" Y="4.13055377217608" Rotation="0" Name="Suriname" />
+    <Label X="19.4790521227128" Y="48.7054717465761" Rotation="0" Name="Slovakia" />
+    <Label X="14.8044463980502" Y="46.1155544410246" Rotation="0" Name="Slovenia" />
+    <Label X="16.7437121902388" Y="62.7923201628462" Rotation="0" Name="Sweden" />
+    <Label X="31.4819315878776" Y="-26.5584273441244" Rotation="0" Name="Swaziland" />
+    <Label X="55.4760199730251" Y="-4.66097820954041" Rotation="0" Name="Seychelles" />
+    <Label X="38.507879394194" Y="35.025472484731" Rotation="0" Name="Syria" />
+    <Label X="-71.9554990302262" Y="21.8644021672385" Rotation="0" Name="Turks and Caicos Is." />
+    <Label X="18.6449321087949" Y="15.3333333598396" Rotation="0" Name="Chad" />
+    <Label X="0.962321180471939" Y="8.52529797629963" Rotation="0" Name="Togo" />
+    <Label X="101.002883516509" Y="15.1181634711076" Rotation="0" Name="Thailand" />
+    <Label X="71.0136331194979" Y="38.5304512482677" Rotation="0" Name="Tajikistan" />
+    <Label X="59.3709993554218" Y="39.1155401731635" Rotation="0" Name="Turkmenistan" />
+    <Label X="125.844386445267" Y="-8.82888539548516" Rotation="0" Name="Timor-Leste" />
+    <Label X="-175.078170946329" Y="-21.1289942359283" Rotation="0" Name="Tonga" />
+    <Label X="-61.265658051994" Y="10.4573575742228" Rotation="0" Name="Trinidad and Tobago" />
+    <Label X="9.55288286702504" Y="34.1195666291377" Rotation="0" Name="Tunisia" />
+    <Label X="35.1689552873428" Y="39.0616034155661" Rotation="0" Name="Turkey" />
+    <Label X="120.954272638558" Y="23.7540034280325" Rotation="0" Name="Taiwan" />
+    <Label X="34.8131021347942" Y="-6.27565814645864" Rotation="0" Name="Tanzania" />
+    <Label X="32.3690753599793" Y="1.27469023718815" Rotation="0" Name="Uganda" />
+    <Label X="31.3832579396668" Y="48.9965678379408" Rotation="0" Name="Ukraine" />
+    <Label X="-56.0180679510402" Y="-32.7995198250339" Rotation="0" Name="Uruguay" />
+    <Label X="-112.461670564453" Y="45.6795520315319" Rotation="0" Name="United States" />
+    <Label X="63.1414069900931" Y="41.7553963464011" Rotation="0" Name="Uzbekistan" />
+    <Label X="12.4338625477289" Y="41.901740979374" Rotation="0" Name="Vatican" />
+    <Label X="-61.2012943812831" Y="13.2247184065013" Rotation="0" Name="Saint Vincent and the Grenadines" />
+    <Label X="-66.1818408493687" Y="7.12422395006778" Rotation="0" Name="Venezuela" />
+    <Label X="106.696102736439" Y="16.4589956730762" Rotation="0" Name="Vietnam" />
+    <Label X="168.021713495148" Y="-16.315644626534" Rotation="0" Name="Vanuatu" />
+    <Label X="-178.04367468983" Y="-14.3032093237916" Rotation="0" Name="Wallis and Futuna" />
+    <Label X="-172.176849331734" Y="-13.6846941056902" Rotation="0" Name="Samoa" />
+    <Label X="47.5867600542133" Y="15.9092765542943" Rotation="0" Name="Yemen" />
+    <Label X="25.2317817996717" Y="-29.0276136816468" Rotation="0" Name="South Africa" />
+    <Label X="27.7747508151173" Y="-13.4582453737208" Rotation="0" Name="Zambia" />
+    <Label X="29.8514503100895" Y="-19.0042058668249" Rotation="0" Name="Zimbabwe" />
+  </Labels>
+</MapWindow>

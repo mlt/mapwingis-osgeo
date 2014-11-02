@@ -1,0 +1,10 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="Provincies" LayerVisible="1" LayerKey="" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillColor="12039355" FillVisible="0" LineColor="5385746" LineWidth="3.000000" />
+      <ShapefileCategoriesClass />
+      <LabelsClass FontColor="12349952" FontSize="14" FrameBackColor="12582911" FrameBackColor2="13553390" FrameGradientMode="0" FrameVisible="-1" Generated="1" MinVisibleScale="708000.000000" AutoOffset="0" DynamicVisibility="-1" AvoidCollisions="0" Positioning="1" TextRenderingHint="3" Expression="[NAAM] " />
+      <ChartsClass ValuesFontName="" />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

@@ -1,0 +1,163 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="US States" LayerVisible="1" LayerKey="" DynamicVisibility="1" MinVisibleScale="1.000000" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillBgColor="0" FillColor="4368922" FillColor2="8308398" FillType="2" LineColor="7500402" LineWidth="2.000000" PointShapeRatio="1.000000" />
+      <ShapefileCategoriesClass>
+        <ShapefileCategoryClass Name="Alabama" Expression="[STATE_NAME] = &quot;Alabama&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="12495233" FillColor2="16774091" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Arizona" Expression="[STATE_NAME] = &quot;Arizona&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="12296822" FillColor2="16772288" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Arkansas" Expression="[STATE_NAME] = &quot;Arkansas&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="12032875" FillColor2="16770485" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="California" Expression="[STATE_NAME] = &quot;California&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="11768928" FillColor2="16637610" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Colorado" Expression="[STATE_NAME] = &quot;Colorado&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="11504980" FillColor2="16373662" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Connecticut" Expression="[STATE_NAME] = &quot;Connecticut&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="11241033" FillColor2="16109715" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Delaware" Expression="[STATE_NAME] = &quot;Delaware&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="10976830" FillColor2="15845512" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="District of Columbia" Expression="[STATE_NAME] = &quot;District of Columbia&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="10712883" FillColor2="15581565" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Florida" Expression="[STATE_NAME] = &quot;Florida&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="10448935" FillColor2="15317617" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Georgia" Expression="[STATE_NAME] = &quot;Georgia&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="10184988" FillColor2="15053670" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Idaho" Expression="[STATE_NAME] = &quot;Idaho&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="9921041" FillColor2="14789723" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Illinois" Expression="[STATE_NAME] = &quot;Illinois&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="9657094" FillColor2="14525776" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Indiana" Expression="[STATE_NAME] = &quot;Indiana&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="9392896" FillColor2="14261572" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Iowa" Expression="[STATE_NAME] = &quot;Iowa&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="9198342" FillColor2="14067024" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Kansas" Expression="[STATE_NAME] = &quot;Kansas&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="8938514" FillColor2="13807196" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Kentucky" Expression="[STATE_NAME] = &quot;Kentucky&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="8743966" FillColor2="13612648" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Louisiana" Expression="[STATE_NAME] = &quot;Louisiana&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="8549674" FillColor2="13418356" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Maine" Expression="[STATE_NAME] = &quot;Maine&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="8289591" FillColor2="13158273" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Maryland" Expression="[STATE_NAME] = &quot;Maryland&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="8029763" FillColor2="12898445" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Massachusetts" Expression="[STATE_NAME] = &quot;Massachusetts&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="7835471" FillColor2="12704153" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Michigan" Expression="[STATE_NAME] = &quot;Michigan&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="7575388" FillColor2="12444070" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Minnesota" Expression="[STATE_NAME] = &quot;Minnesota&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="7381096" FillColor2="12249778" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Mississippi" Expression="[STATE_NAME] = &quot;Mississippi&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="7121012" FillColor2="11989694" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Missouri" Expression="[STATE_NAME] = &quot;Missouri&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="6926720" FillColor2="11795402" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Montana" Expression="[STATE_NAME] = &quot;Montana&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="6666893" FillColor2="11534295" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Nebraska" Expression="[STATE_NAME] = &quot;Nebraska&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="6206851" FillColor2="11075533" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Nevada" Expression="[STATE_NAME] = &quot;Nevada&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="5681272" FillColor2="10549954" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="New Hampshire" Expression="[STATE_NAME] = &quot;New Hampshire&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="5155694" FillColor2="10024376" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="New Jersey" Expression="[STATE_NAME] = &quot;New Jersey&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="4629859" FillColor2="9498541" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="New Mexico" Expression="[STATE_NAME] = &quot;New Mexico&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="4104281" FillColor2="8972963" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="New York" Expression="[STATE_NAME] = &quot;New York&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="3578702" FillColor2="8447384" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="North Carolina" Expression="[STATE_NAME] = &quot;North Carolina&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="3118659" FillColor2="7987341" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="North Dakota" Expression="[STATE_NAME] = &quot;North Dakota&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="2593081" FillColor2="7461763" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Ohio" Expression="[STATE_NAME] = &quot;Ohio&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="2067246" FillColor2="6935928" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Oklahoma" Expression="[STATE_NAME] = &quot;Oklahoma&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="1541668" FillColor2="6410350" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Oregon" Expression="[STATE_NAME] = &quot;Oregon&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="1016089" FillColor2="5884771" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Pennsylvania" Expression="[STATE_NAME] = &quot;Pennsylvania&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="490254" FillColor2="5358936" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Rhode Island" Expression="[STATE_NAME] = &quot;Rhode Island&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="1080094" FillColor2="5948776" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="South Carolina" Expression="[STATE_NAME] = &quot;South Carolina&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="1669935" FillColor2="6538617" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="South Dakota" Expression="[STATE_NAME] = &quot;South Dakota&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="2259520" FillColor2="7128202" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Tennessee" Expression="[STATE_NAME] = &quot;Tennessee&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="2849104" FillColor2="7717786" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Texas" Expression="[STATE_NAME] = &quot;Texas&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="3438945" FillColor2="8307627" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Utah" Expression="[STATE_NAME] = &quot;Utah&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="4028530" FillColor2="8897212" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Vermont" Expression="[STATE_NAME] = &quot;Vermont&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="4618370" FillColor2="9487052" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Virginia" Expression="[STATE_NAME] = &quot;Virginia&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="5208211" FillColor2="10076893" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Washington" Expression="[STATE_NAME] = &quot;Washington&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="5797796" FillColor2="10666478" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="West Virginia" Expression="[STATE_NAME] = &quot;West Virginia&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="6387380" FillColor2="11256062" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Wisconsin" Expression="[STATE_NAME] = &quot;Wisconsin&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="6977221" FillColor2="11845887" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="Wyoming" Expression="[STATE_NAME] = &quot;Wyoming&quot;">
+          <ShapeDrawingOptionsClass FillBgColor="0" FillColor="7632342" FillColor2="12500991" FillType="2" LineColor="7500402" PointShapeRatio="1.000000" />
+        </ShapefileCategoryClass>
+      </ShapefileCategoriesClass>
+      <LabelsClass Alignment="7" FontColor="2838138" FrameBackColor="8435191" FrameBackColor2="11194106" FrameGradientMode="0" FrameOutlineColor="2838138" FrameVisible="-1" OffsetY="5" Generated="1" MinVisibleScale="1.000000" AutoOffset="0" Positioning="1" Expression="[STATE_ABBR] " />
+      <ChartsClass BarHeight="25" NormalizationField="0" Radius="15" ValuesFontName="" Visible="-1">
+        <ChartFields>
+          <ChartFieldClass Name="POP1990" Color="65535" Index="5" />
+          <ChartFieldClass Name="POP1997" Color="42495" Index="6" />
+        </ChartFields>
+      </ChartsClass>
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

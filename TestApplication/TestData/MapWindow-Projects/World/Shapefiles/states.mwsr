@@ -1,0 +1,66 @@
+<SFRendering>
+  <Layer Name="US States" GroupName="Data Layers" Type="3" Path="Shapefiles\states.shp" Tag="" LegendPicture="" Visible="True" LabelsVisible="False" Expanded="True">
+    <Image Type="">
+    </Image>
+    <ShapeFileProperties LabelsVisible="False" MapTooltipField="-1" MapTooltipsEnabled="False" VerticesVisible="False" Color="6263200" DrawFill="True" TransparencyPercent="1" FillStipple="0" LineOrPointSize="1" LineStipple="0" OutLineColor="68423" PointType="0" CustomLineStipple="0" UseTransparency="False" TransparencyColor="0" FillStippleTransparent="True" FillStippleLineColor="-16777216">
+      <CustomPointType>
+        <Image Type="">
+        </Image>
+      </CustomPointType>
+      <Legend FieldIndex="1" Key="" NumberOfBreaks="49" SchemeCaption="">
+        <ColorBreaks>
+          <Break StartColor="10761541" EndColor="10761541" StartValue="Alabama" EndValue="Alabama" Caption="Alabama" Visible="True" />
+          <Break StartColor="13137736" EndColor="13137736" StartValue="Arizona" EndValue="Arizona" Caption="Arizona" Visible="True" />
+          <Break StartColor="9784229" EndColor="9784229" StartValue="Arkansas" EndValue="Arkansas" Caption="Arkansas" Visible="True" />
+          <Break StartColor="1588025" EndColor="1588025" StartValue="California" EndValue="California" Caption="California" Visible="True" />
+          <Break StartColor="8918472" EndColor="8918472" StartValue="Colorado" EndValue="Colorado" Caption="Colorado" Visible="True" />
+          <Break StartColor="14085587" EndColor="14085587" StartValue="Connecticut" EndValue="Connecticut" Caption="Connecticut" Visible="True" />
+          <Break StartColor="16184553" EndColor="16184553" StartValue="Delaware" EndValue="Delaware" Caption="Delaware" Visible="True" />
+          <Break StartColor="11567034" EndColor="11567034" StartValue="District of Columbia" EndValue="District of Columbia" Caption="District of Columbia" Visible="True" />
+          <Break StartColor="15257742" EndColor="15257742" StartValue="Florida" EndValue="Florida" Caption="Florida" Visible="True" />
+          <Break StartColor="5242037" EndColor="5242037" StartValue="Georgia" EndValue="Georgia" Caption="Georgia" Visible="True" />
+          <Break StartColor="4856654" EndColor="4856654" StartValue="Idaho" EndValue="Idaho" Caption="Idaho" Visible="True" />
+          <Break StartColor="9872173" EndColor="9872173" StartValue="Illinois" EndValue="Illinois" Caption="Illinois" Visible="True" />
+          <Break StartColor="2878374" EndColor="2878374" StartValue="Indiana" EndValue="Indiana" Caption="Indiana" Visible="True" />
+          <Break StartColor="11930096" EndColor="11930096" StartValue="Iowa" EndValue="Iowa" Caption="Iowa" Visible="True" />
+          <Break StartColor="1488442" EndColor="1488442" StartValue="Kansas" EndValue="Kansas" Caption="Kansas" Visible="True" />
+          <Break StartColor="3358636" EndColor="3358636" StartValue="Kentucky" EndValue="Kentucky" Caption="Kentucky" Visible="True" />
+          <Break StartColor="162628" EndColor="162628" StartValue="Louisiana" EndValue="Louisiana" Caption="Louisiana" Visible="True" />
+          <Break StartColor="3293082" EndColor="3293082" StartValue="Maine" EndValue="Maine" Caption="Maine" Visible="True" />
+          <Break StartColor="9209641" EndColor="9209641" StartValue="Maryland" EndValue="Maryland" Caption="Maryland" Visible="True" />
+          <Break StartColor="11075920" EndColor="11075920" StartValue="Massachusetts" EndValue="Massachusetts" Caption="Massachusetts" Visible="True" />
+          <Break StartColor="8069228" EndColor="8069228" StartValue="Michigan" EndValue="Michigan" Caption="Michigan" Visible="True" />
+          <Break StartColor="4785336" EndColor="4785336" StartValue="Minnesota" EndValue="Minnesota" Caption="Minnesota" Visible="True" />
+          <Break StartColor="12234357" EndColor="12234357" StartValue="Mississippi" EndValue="Mississippi" Caption="Mississippi" Visible="True" />
+          <Break StartColor="3357600" EndColor="3357600" StartValue="Missouri" EndValue="Missouri" Caption="Missouri" Visible="True" />
+          <Break StartColor="5128930" EndColor="5128930" StartValue="Montana" EndValue="Montana" Caption="Montana" Visible="True" />
+          <Break StartColor="14654041" EndColor="14654041" StartValue="Nebraska" EndValue="Nebraska" Caption="Nebraska" Visible="True" />
+          <Break StartColor="15894884" EndColor="15894884" StartValue="Nevada" EndValue="Nevada" Caption="Nevada" Visible="True" />
+          <Break StartColor="12431193" EndColor="12431193" StartValue="New Hampshire" EndValue="New Hampshire" Caption="New Hampshire" Visible="True" />
+          <Break StartColor="6458961" EndColor="6458961" StartValue="New Jersey" EndValue="New Jersey" Caption="New Jersey" Visible="True" />
+          <Break StartColor="7410928" EndColor="7410928" StartValue="New Mexico" EndValue="New Mexico" Caption="New Mexico" Visible="True" />
+          <Break StartColor="7852914" EndColor="7852914" StartValue="New York" EndValue="New York" Caption="New York" Visible="True" />
+          <Break StartColor="12753248" EndColor="12753248" StartValue="North Carolina" EndValue="North Carolina" Caption="North Carolina" Visible="True" />
+          <Break StartColor="10596793" EndColor="10596793" StartValue="North Dakota" EndValue="North Dakota" Caption="North Dakota" Visible="True" />
+          <Break StartColor="9337846" EndColor="9337846" StartValue="Ohio" EndValue="Ohio" Caption="Ohio" Visible="True" />
+          <Break StartColor="7011551" EndColor="7011551" StartValue="Oklahoma" EndValue="Oklahoma" Caption="Oklahoma" Visible="True" />
+          <Break StartColor="6749444" EndColor="6749444" StartValue="Oregon" EndValue="Oregon" Caption="Oregon" Visible="True" />
+          <Break StartColor="16602654" EndColor="16602654" StartValue="Pennsylvania" EndValue="Pennsylvania" Caption="Pennsylvania" Visible="True" />
+          <Break StartColor="9912768" EndColor="9912768" StartValue="Rhode Island" EndValue="Rhode Island" Caption="Rhode Island" Visible="True" />
+          <Break StartColor="15910267" EndColor="15910267" StartValue="South Carolina" EndValue="South Carolina" Caption="South Carolina" Visible="True" />
+          <Break StartColor="13841272" EndColor="13841272" StartValue="South Dakota" EndValue="South Dakota" Caption="South Dakota" Visible="True" />
+          <Break StartColor="12738157" EndColor="12738157" StartValue="Tennessee" EndValue="Tennessee" Caption="Tennessee" Visible="True" />
+          <Break StartColor="12051613" EndColor="12051613" StartValue="Texas" EndValue="Texas" Caption="Texas" Visible="True" />
+          <Break StartColor="11673777" EndColor="11673777" StartValue="Utah" EndValue="Utah" Caption="Utah" Visible="True" />
+          <Break StartColor="14200719" EndColor="14200719" StartValue="Vermont" EndValue="Vermont" Caption="Vermont" Visible="True" />
+          <Break StartColor="2055856" EndColor="2055856" StartValue="Virginia" EndValue="Virginia" Caption="Virginia" Visible="True" />
+          <Break StartColor="2483763" EndColor="2483763" StartValue="Washington" EndValue="Washington" Caption="Washington" Visible="True" />
+          <Break StartColor="6768337" EndColor="6768337" StartValue="West Virginia" EndValue="West Virginia" Caption="West Virginia" Visible="True" />
+          <Break StartColor="12522937" EndColor="12522937" StartValue="Wisconsin" EndValue="Wisconsin" Caption="Wisconsin" Visible="True" />
+          <Break StartColor="15556214" EndColor="15556214" StartValue="Wyoming" EndValue="Wyoming" Caption="Wyoming" Visible="True" />
+        </ColorBreaks>
+      </Legend>
+    </ShapeFileProperties>
+    <DynamicVisibility UseDynamicVisibility="False" Scale="0" />
+  </Layer>
+</SFRendering>

@@ -1,0 +1,32 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="Buurtkaart" LayerVisible="1" LayerKey="" MinVisibleScale="1.000000" MaxVisibleScale="125000.000000" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillColor="12307141" LineColor="13816530" LinesVisible="0" />
+      <ShapefileCategoriesClass>
+        <ShapefileCategoryClass Name="1 - 235" Expression="[OPP_LAND] &gt;= 1.000000 AND [OPP_LAND] &lt; 235.000000">
+          <ShapeDrawingOptionsClass FillColor="165" FillColor2="4531695" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="235 - 651" Expression="[OPP_LAND] &gt;= 235.000000 AND [OPP_LAND] &lt; 651.000000">
+          <ShapeDrawingOptionsClass FillColor="2510791" FillColor2="7379455" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="651 - 1.25k" Expression="[OPP_LAND] &gt;= 651.000000 AND [OPP_LAND] &lt; 1249.000000">
+          <ShapeDrawingOptionsClass FillColor="6071256" FillColor2="10939903" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="1.25k - 2.09k" Expression="[OPP_LAND] &gt;= 1249.000000 AND [OPP_LAND] &lt; 2092.000000">
+          <ShapeDrawingOptionsClass FillColor="10345178" FillColor2="15204351" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="2.09k - 3.45k" Expression="[OPP_LAND] &gt;= 2092.000000 AND [OPP_LAND] &lt; 3446.000000">
+          <ShapeDrawingOptionsClass FillColor="6537631" FillColor2="11403241" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="3.45k - 8.68k" Expression="[OPP_LAND] &gt;= 3446.000000 AND [OPP_LAND] &lt; 8680.000000">
+          <ShapeDrawingOptionsClass FillColor="3710547" FillColor2="8579229" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+        <ShapefileCategoryClass Name="8.68k - 12.82k" Expression="[OPP_LAND] &gt;= 8680.000000 AND [OPP_LAND] &lt;= 12823.000000">
+          <ShapeDrawingOptionsClass FillColor="1863936" FillColor2="6732607" FillType="2" LineColor="13816530" LinesVisible="0" />
+        </ShapefileCategoryClass>
+      </ShapefileCategoriesClass>
+      <LabelsClass Generated="0" AutoOffset="0" Positioning="1" />
+      <ChartsClass ValuesFontName="" />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>

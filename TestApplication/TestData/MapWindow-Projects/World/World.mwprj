@@ -1,0 +1,53 @@
+<Mapwin name="MapWindow+GIS++-+World*" type="projectfile.1" version="4.8.2" ConfigurationPath="C:\Documents and Settings\MapWindow\Application Data\MapWindow\mapwindow.mwcfg" ProjectProjection="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs " MapUnits="Lat/Long" StatusBarAlternateCoordsNumDecimals="3" StatusBarCoordsNumDecimals="3" StatusBarAlternateCoordsUseCommas="True" StatusBarCoordsUseCommas="True" ShowFloatingScaleBar="False" FloatingScaleBarPosition="LowerRight" FloatingScaleBarUnit="" FloatingScaleBarForecolor="-16777216" FloatingScaleBarBackcolor="-1" MapResizeBehavior="0" ShowStatusBarCoords_Projected="True" ShowStatusBarCoords_Alternate="(None)" SaveShapeSettings="False" ViewBackColor_UseDefault="True" ViewBackColor="16777215">
+  <Plugins>
+    <Plugin SettingsString="" Key="MeemsTools_DrillDown_Classes_DrillDownIdentifier" />
+    <Plugin SettingsString="" Key="GISTools_mwGISTools" />
+    <Plugin SettingsString="" Key="ArchiveTool_mwArchiveTool" />
+  </Plugins>
+  <ApplicationPlugins PluginDir="..\..\..\..\Dev\MapWindow4Dev\bin\ApplicationPlugins">
+    <Plugin SettingsString="" Key="Database_OpenHydroPluginClass" />
+    <Plugin SettingsString="" Key="mwSymbology_SymbologyPlugin" />
+    <Plugin SettingsString="Editable=True" Key="mwIdentifier_mwIdentPlugin" />
+    <Plugin SettingsString="" Key="Labeler_mwLabeler" />
+    <Plugin SettingsString="" Key="mwTableEditor_mwTableEditorClass" />
+    <Plugin SettingsString="" Key="mwLayout_LayoutPlugin" />
+  </ApplicationPlugins>
+  <Extents xMax="187.21666666663" yMax="156.072153282777" xMin="-187.200041893643" yMin="-156.038819949426" />
+  <Groups>
+    <Group Name="Data Layers" Expanded="True" Position="0">
+      <Image Type="">
+      </Image>
+      <Layers>
+        <Layer Name="NE2_50M_SR" GroupName="Data Layers" Type="0" Path="Raster\NE2_50M_SR.jpg" Tag="" Visible="True" Expanded="True" DynamicVisibility="False" MinVisibleScale="0" MaxVisibleScale="100000000">
+          <ImageProperties />
+          <LabelProperties>
+            <DefaultLabelOptions Alignment="laCenter" Expression="" FontBold="False" FontColor="0" FontColor2="0" FontGradientMode="gmNone" FontItalic="False" FontName="Arial" FontOutlineColor="255" FontOutlineVisible="False" FontOutlineWidth="1" FontSize="10" FontTransparency="255" FontUnderline="False" FrameBackColor="13952764" FrameBackColor2="15130800" FrameGradientMode="gmNone" FrameOutlineColor="9868950" FrameOutlineStyle="dsSolid" FrameOutlineWidth="1" FramePaddingX="10" FramePaddingY="0" FrameTransparency="255" FrameType="lfPointedRectangle" FrameVisible="False" HaloColor="16777215" HaloSize="2" HaloVisible="False" InboxAlignment="laCenter" MaxValue="" MinValue="" Name="Default" OffsetX="0" OffsetY="0" Priority="0" ShadowColor="12237498" ShadowOffsetX="2" ShadowOffsetY="2" ShadowVisible="False" Visible="False" MaxVisibleScale="100000000" MinVisibleScale="0" ScaleLabels="False" CollisionBuffer="0" ClassificationField="-1" VisibilityExpression="" UseGdiPlus="True" />
+            <LabelCategories />
+            <Labels />
+          </LabelProperties>
+          <!---->
+          <SymbologyPlugin CategoriesClassification="ctNaturalBreaks" CategoriesCount="8" CategoriesUseGradient="false" CategoriesRandomColors="false" CategoriesFieldName="" CategoriesVariableSize="false" CategoriesSizeRange="8" LabelsGraduatedColors="false" LabelsRandomColors="false" LabelsVariableSize="false" LabelSizeRange="10" LabelPrependText="" LabelPrependText2="" LabelAppendText="" LabelAppendText2="" LabelField="" LabelField2="" LabelMultiline="false" ShowLayerPreview="true" Comments="" ScaleIcons="false" IconIndex="-1" IconCollection="" UpdateMapAtOnce="true" ShowQueryValues="true" ShowQueryOnMap="false" />
+        </Layer>
+        <Layer Name="Countries" GroupName="Data Layers" Type="3" Path="Shapefiles\50m_admin_0_countries.shp" Tag="" Visible="True" Expanded="True" DynamicVisibility="False" MinVisibleScale="0" MaxVisibleScale="100000000">
+          <ShapefileProperties VisibilityExpression="" FastMode="False" UseQTree="False" CollisionMode="LocalList" SelectionAppearance="saSelectionColor" SelectionColor="65535" SelectionTransparency="180" MinDrawingSize="1">
+            <DefaultDrawingOptions Picture="" DrawingMode="vdmGDIMixed" FillBgColor="6352160" FillBgTransparent="False" FillColor="12632256" FillColor2="13158600" FillGradientBounds="gbPerShape" FillGradientType="gtLinear" FillHatchStyle="hsMin" FillTransparency="255" FillType="ftStandard" FillVisible="False" FontName="Times New Roman" LineColor="6908265" LineStipple="dsSolid" LineTransparency="255" LineVisible="True" LineWidth="2" PictureScaleX="1" PictureScaleY="1" PointCharacter="97" PointShape="ptShapeRegular" PointSidesCount="4" PointSidesRatio="0,5" PointSize="8" PointType="ptSymbolStandard" Visible="True" Tag="" />
+            <SelectionDrawingOptions Picture="" FillBgColor="30720" FillBgTransparent="True" FillColor="65535" FillVisible="True" LineColor="9868950" LineWidth="1" />
+            <Charts AvoidCollisions="True" BarHeight="50" BarWidth="10" ChartType="chtPieChart" LineColor="8421504" NormalizationField="-1" PieRadius="15" PieRadius2="30" PieRotation="0" SizeField="-1" Thickness="10" Tilt="30" Transparency="255" Use3DMode="True" UseVariableRadius="False" VerticalPosition="vpAboveAllLayers" Visible="True" ValuesFontBold="False" ValuesFontColor="0" ValuesFontItalic="False" ValuesFontName="Arial" ValuesFontSize="8" ValuesFrameColor="13158655" ValuesFrameVisible="True" ValuesStyle="vsHorizontal" ValuesVisible="True" VisibilityExpression="" OffsetX="0" OffsetY="0" CollisionBuffer="0" MaxVisibleScale="100000000" MinVisibleScale="0" Caption="" />
+          </ShapefileProperties>
+          <LabelProperties>
+            <DefaultLabelOptions Alignment="laCenter" Expression="" FontBold="False" FontColor="0" FontColor2="0" FontGradientMode="gmNone" FontItalic="False" FontName="Arial" FontOutlineColor="255" FontOutlineVisible="False" FontOutlineWidth="1" FontSize="10" FontTransparency="255" FontUnderline="False" FrameBackColor="13952764" FrameBackColor2="15130800" FrameGradientMode="gmNone" FrameOutlineColor="9868950" FrameOutlineStyle="dsSolid" FrameOutlineWidth="1" FramePaddingX="10" FramePaddingY="0" FrameTransparency="255" FrameType="lfPointedRectangle" FrameVisible="False" HaloColor="16777215" HaloSize="2" HaloVisible="False" InboxAlignment="laCenter" MaxValue="" MinValue="" Name="Default" OffsetX="0" OffsetY="0" Priority="0" ShadowColor="12237498" ShadowOffsetX="2" ShadowOffsetY="2" ShadowVisible="False" Visible="True" MaxVisibleScale="100000000" MinVisibleScale="0" ScaleLabels="False" CollisionBuffer="0" ClassificationField="-1" VisibilityExpression="" UseGdiPlus="True" />
+            <LabelCategories />
+            <Labels />
+          </LabelProperties>
+          <!---->
+          <SymbologyPlugin CategoriesClassification="ctNaturalBreaks" CategoriesCount="8" CategoriesUseGradient="false" CategoriesRandomColors="false" CategoriesFieldName="" CategoriesVariableSize="false" CategoriesSizeRange="8" LabelsGraduatedColors="false" LabelsRandomColors="false" LabelsVariableSize="false" LabelSizeRange="10" LabelPrependText="" LabelPrependText2="" LabelAppendText="" LabelAppendText2="" LabelField="" LabelField2="" LabelMultiline="false" ShowLayerPreview="true" Comments="" ScaleIcons="false" IconIndex="-1" IconCollection="" UpdateMapAtOnce="true" ShowQueryValues="true" ShowQueryOnMap="false" />
+        </Layer>
+      </Layers>
+    </Group>
+  </Groups>
+  <Bookmarks />
+  <PreviewMap dx="0" dy="0" xllcenter="0" yllcenter="0">
+    <Image Type="">
+    </Image>
+  </PreviewMap>
+</Mapwin>

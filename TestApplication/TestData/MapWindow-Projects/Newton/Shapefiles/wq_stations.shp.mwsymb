@@ -1,0 +1,10 @@
+<MapWinGIS OcxVersion="4.8" FileType="LayerFile" FileVersion="0" Description="">
+  <Layer LayerType="Shapefile" LayerName="Water Quality Stations" LayerVisible="1" LayerKey="" Filename="">
+    <ShapefileClass>
+      <DefaultDrawingOptions FillBgColor="0" FillColor="3027590" LineColor="3552822" PointNumSides="16" PointShapeRatio="0.100000" PointShapeType="5" PointSize="20.000000" />
+      <ShapefileCategoriesClass />
+      <LabelsClass Alignment="7" FontColor="3027590" FontName="Batang" HaloColor="9344666" HaloVisible="1" OffsetY="3" ShadowVisible="1" Generated="1" MaxVisibleScale="264000.000000" AutoOffset="0" DynamicVisibility="-1" AvoidCollisions="0" Positioning="1" Expression="[STATION_NA] " />
+      <ChartsClass ValuesFontName="" Visible="-1" />
+    </ShapefileClass>
+  </Layer>
+</MapWinGIS>
