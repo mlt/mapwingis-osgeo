@@ -1,8 +1,0 @@
-<ColoringScheme OcxVersion="4.9.2.0" FileType="GridColorScheme" FileVersion="2" FilenamesEncoding="utf8" SchemeType="Grid" GroupName="Data Layers" GridName="testTool.vrt" BandIndex="1">
-  <GridColoringScheme Key="" NoDataColor="16777215" LightSourceIntensity="0.700000" AmbientIntensity="0.700000" LightSourceElevation="45.000000" LightSourceAzimuth="90.000000" LightSourceI="-0.707000" LightSourceJ="-0.707000" LightSourceK="0.000000">
-    <GridColorBreaks>
-      <GridColorBreakClass HighColor="10937314" LowColor="13666611" LowValue="0.031134" HighValue="602.853763" Caption="" ColoringType="0" GradientModel="1" Key="" />
-      <GridColorBreakClass HighColor="7705239" LowColor="10937314" LowValue="602.853763" HighValue="1205.676392" Caption="" ColoringType="0" GradientModel="1" Key="" />
-    </GridColorBreaks>
-  </GridColoringScheme>
-</ColoringScheme>
