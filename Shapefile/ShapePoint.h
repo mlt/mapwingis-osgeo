@@ -64,13 +64,13 @@ public:
 	double y;
 	double z;
 	double m;
-	CStringW key;
+	CString key;
 	bool pointExists;
 
 	void get_Key(BSTR* pVal)
 	{
 		USES_CONVERSION;
-		BSTR s = OLE2BSTR(key);
+		BSTR s = key.AllocSysString();
 		*pVal = s;
 	}
 	void put_Key(BSTR newVal)
