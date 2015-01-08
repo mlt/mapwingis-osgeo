@@ -75,11 +75,9 @@ CMemLeakDetect gMemLeakDetect;
 // ******************************************************
 BOOL CMapWinGISApp::InitInstance()
 {
-	//Neio modified 2009, following http://www.mapwindow.org/phorum/read.php?7,12162 by gischai, for multi-language support
-	//std::locale::global(std::locale(""));
-	//19-Oct-09 Rob Cairns: (See Bug 1446) - I hate doing this if it prevents our Chinese friends opening Chinese character shapefiles and data.
-	//However, there are just too many bugs associated with this change. See Bug 1446 for more information. Changing back to classic.
-	std::locale::global(std::locale("C"));
+	std::locale loc("");
+	loc.combine< std::num_put<char> > (std::locale::classic());
+	std::locale::global(loc);
 	
 	// initialize all static variables, to keep our menory leaking report clean from them
 	#ifdef MEMLEAK
@@ -88,13 +86,6 @@ BOOL CMapWinGISApp::InitInstance()
 		gMemLeakDetect.stopped = false;
 	#endif
 
-	// UTF8 string are expected by default; the enviroment variable shoud be set to restore older behavior
-	// see more details here: http://trac.osgeo.org/gdal/wiki/ConfigOptions
-	if( CSLTestBoolean(CPLGetConfigOption( "GDAL_FILENAME_IS_UTF8", "YES" ) ) )
-	{
-		CPLSetConfigOption( "GDAL_FILENAME_IS_UTF8", "NO" );
-	}
-		
 	m_utils = NULL;
 	return COleControlModule::InitInstance();
 }
