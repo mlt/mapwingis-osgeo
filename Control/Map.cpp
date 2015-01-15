@@ -166,10 +166,10 @@ void CMapView::Startup()
 	InitializeIIDs(&IID_DMap, &IID_DMapEvents);
 	
 	Gdiplus::FontFamily family(L"Courier New");
-	_fontCourier = new Gdiplus::Font(&family, (Gdiplus::REAL)9.0f, Gdiplus::FontStyleRegular, Gdiplus::UnitPoint);
+	_fontCourier = ::new Gdiplus::Font(&family, (Gdiplus::REAL)9.0f, Gdiplus::FontStyleRegular, Gdiplus::UnitPoint);
 
 	Gdiplus::FontFamily family2(L"Arial");
-	_fontArial = new Gdiplus::Font(&family2, (Gdiplus::REAL)9.0f, Gdiplus::FontStyleRegular, Gdiplus::UnitPoint);
+	_fontArial = ::new Gdiplus::Font(&family2, (Gdiplus::REAL)9.0f, Gdiplus::FontStyleRegular, Gdiplus::UnitPoint);
 	
 	_panningAnimation = false;
 	_zoombarTargetZoom = -1;
