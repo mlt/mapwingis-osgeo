@@ -619,9 +619,9 @@ public:
 		{FireEvent(eventidOnDrawBackBuffer,EVENT_PARAM(VTS_I4), BackBuffer);}
 	void FireShapeHighlighted(long LayerHandle, long ShapeIndex, long pointX, long pointY)
 		{FireEvent(eventidShapeHighlighted,EVENT_PARAM(VTS_I4 VTS_I4 VTS_I4  VTS_I4), LayerHandle, ShapeIndex, pointX, pointY);}
-	void FireBeforeDrawing(long hdc, long xMin, long xMax, long yMin, long yMax, VARIANT_BOOL* Handled)
+	void FireBeforeDrawing(long hdc, long xMin, long xMax, long yMin, long yMax, BOOL* Handled)
 		{FireEvent(eventidBeforeDrawing,EVENT_PARAM(VTS_I4 VTS_I4 VTS_I4 VTS_I4 VTS_I4 VTS_PBOOL), hdc, xMin, xMax, yMin, yMax, Handled);}
-	void FireAfterDrawing(long hdc, long xMin, long xMax, long yMin, long yMax, VARIANT_BOOL* Handled)
+	void FireAfterDrawing(long hdc, long xMin, long xMax, long yMin, long yMax, BOOL* Handled)
 		{FireEvent(eventidAfterDrawing,EVENT_PARAM(VTS_I4 VTS_I4 VTS_I4 VTS_I4 VTS_I4 VTS_PBOOL), hdc, xMin, xMax, yMin, yMax, Handled);}
 	void FireTilesLoaded(IDispatch* tiles, IDispatch* extents, VARIANT_BOOL snapshot, LPCTSTR key)
 		{FireEvent(eventidTilesLoaded,EVENT_PARAM(VTS_DISPATCH VTS_DISPATCH VTS_BOOL VTS_BSTR ), tiles, extents, snapshot,key);}

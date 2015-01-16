@@ -223,7 +223,9 @@ void CMapView::HandleNewDrawing(CDC* pdc, const CRect& rcBounds, const CRect& rc
 		// fire external drawing
 		{
 			HDC hdc = gBuffer->GetHDC();
-			VARIANT_BOOL retVal = VARIANT_FALSE;
+			// see C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\src\mfc\oledisp2.cpp
+			// Namely search for "coerce BOOL into VARIANT_BOOL"
+			BOOL retVal = FALSE;
 			this->FireBeforeDrawing((long)hdc, rcBounds.left, rcBounds.right, rcBounds.top, rcBounds.bottom, &retVal);
 			gBuffer->ReleaseHDC(hdc);
 		}
@@ -235,7 +237,7 @@ void CMapView::HandleNewDrawing(CDC* pdc, const CRect& rcBounds, const CRect& rc
 		// fire external drawing code
 		{
 			HDC hdc = gBuffer->GetHDC();
-			VARIANT_BOOL retVal = VARIANT_FALSE;
+			BOOL retVal = FALSE;
 			this->FireAfterDrawing((long)hdc, rcBounds.left, rcBounds.right, rcBounds.top, rcBounds.bottom, &retVal);
 			gBuffer->ReleaseHDC(hdc);
 		}
