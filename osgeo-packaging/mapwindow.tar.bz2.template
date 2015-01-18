@@ -1,0 +1,9 @@
+
+@ mapwindow
+sdesc: "MapWindow GIS 4"
+ldesc: "MapWindow GIS 4 including OCX built on top of OSGeo4W"
+maintainer: Mikhail Titov <mlt@gmx.us>
+category: Desktop
+requires: gdal geos libgeotiff libspatialindex libtiff sqlite3
+version: 4.8.8-0
+install: x86/mapwindow.tar.bz2

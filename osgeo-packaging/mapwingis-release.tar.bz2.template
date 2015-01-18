@@ -1,0 +1,10 @@
+
+@ mapwingis-release
+sdesc: "MapWinGIS Active X component. (Release)"
+ldesc: "ActiveX component from MapWindow GIS.
+Can be used in custom applications. Keep OCX with dependencies nearby your EXE. No registry mess is neccessary."
+maintainer: Mikhail Titov <mlt@gmx.us>
+category: Libs
+requires: gdal geos libgeotiff libspatialindex libtiff sqlite3
+version: 4.9.2-0
+install: x86/mapwingis-release.tar.bz2
