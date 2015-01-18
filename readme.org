@@ -1,0 +1,36 @@
+* About
+
+The goal of this project is to unify [[http://mapwingis.codeplex.com][MapWinGIS ActiveX component]] into
+[[http://trac.osgeo.org/osgeo4w/][OSGeo4W]] environment by utilizing its library stack and providing
+support for [[http://msdn.microsoft.com/en-us/library/ms973913.aspx][registration free COM activation]].
+
+The target audience is primarily C++ developers working with OSGeo4W
+stack but for some reason relying on MapWinGIS ActiveX component.
+
+This project uses [[http://www.cmake.org/][CMake]].
+
+* How to use
+
+For C++ projects [[http://www.mapwindow.org/phorum/read.php?3,24690][referencing OCX as dependency]] will work.  For managed
+languages, it is better to temporarily register OCX and let the magic
+happen by [[http://stackoverflow.com/a/21946651/673826][setting Isolated to True]]. Otherwise embed manifest right
+into EXE instead of specifying as a dependency.
+
+* Example
+
+You may add http://mapwingis-osgeo-repo.storage.googleapis.com to
+OSGeo4W installer (x86 only at least for now) to install MapWindow.
+
+* Known issues
+
+Assemblies referenced in manifest shall be in the same folder, i.e. no
+way to use OCX from elsewhere but same folder. There are workarounds
+for Windows 7+ using configuration file for executable
+http://stackoverflow.com/questions/2100973/dll-redirection-using-manifests
+. Perhaps symbolic link can work as well.
+
+*MapWinGIS moved on to GDAL 2 which is not available in OSGeo4W at
+this moment. This effectively puts this project on hold.*
+
+This is a proof of a concept and it is not meant for end user
+deployment.
