@@ -24,10 +24,12 @@ OSGeo4W installer (x86 only at least for now) to install MapWindow.
 * Known issues
 
 Assemblies referenced in manifest shall be in the same folder, i.e. no
-way to use OCX from elsewhere but same folder. There are workarounds
-for Windows 7+ using configuration file for executable
-http://stackoverflow.com/questions/2100973/dll-redirection-using-manifests
-. Perhaps symbolic link can work as well.
+way to use OCX from elsewhere but same folder.
++There are workarounds for Windows 7 and above using configuration file for executable
+http://stackoverflow.com/questions/2100973/dll-redirection-using-manifests.+
+Private path for assembly probing shall be a subfolder and can't go up
+to =..\..\bin=. A symbolic link can work but requires elevated
+privileges to be created.
 
 *MapWinGIS moved on to GDAL 2 which is not available in OSGeo4W at
 this moment. This effectively puts this project on hold.*
